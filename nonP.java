@@ -23,6 +23,8 @@ public class nonP {
         arr[1]=2000;
         arr[2]=3000;
         System.out.println(arr[10]);
+        System.out.println(arr.length);
+        
 
 
 
