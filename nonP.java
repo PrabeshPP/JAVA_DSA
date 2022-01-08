@@ -12,13 +12,21 @@ public class nonP {
         System.out.println(name.charAt(2));
         // replace() method replace the given char
         System.out.println(name.replace("P", "S"));
-
+        //Substring returns the string from certain index to certain index
         System.out.println(name.substring(0, 3));
 
 
         //Arrays
 
-        
+        int[] arr=new int[3];
+        arr[0]=1000;
+        arr[1]=2000;
+        arr[2]=3000;
+        System.out.println(arr[1]);
+
+
+
+
 
 
     }
