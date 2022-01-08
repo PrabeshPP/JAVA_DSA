@@ -35,8 +35,5 @@ public class nonP {
         System.out.println(arr[1]);
 
 
-
-
-
     }
 }
