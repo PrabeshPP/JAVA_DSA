@@ -18,11 +18,11 @@ public class nonP {
 
         //Arrays
 
-        int[] arr=new int[3];
+        int[] arr=new int[12];
         arr[0]=1000;
         arr[1]=2000;
         arr[2]=3000;
-        System.out.println(arr[1]);
+        System.out.println(arr[10]);
 
 
 
