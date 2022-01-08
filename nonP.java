@@ -16,5 +16,10 @@ public class nonP {
         System.out.println(name.substring(0, 3));
 
 
+        //Arrays
+
+        
+
+
     }
 }
