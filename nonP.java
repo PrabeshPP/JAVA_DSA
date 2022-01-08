@@ -20,12 +20,7 @@ public class nonP {
 
         //Arrays
 
-        int[] arr=new int [5];
-        arr[0]=22;
-        arr[1]=1;
-        arr[2]=55;
-        arr[3]=3;
-        arr[4]=99;
+        int[] arr={99,1,89,22};
         System.out.println(arr[1]);
         // Length of an array
         System.out.println(arr.length);
