@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class nonP {
     public static void main(String[] args){
         //Strings are immutable
@@ -18,14 +20,19 @@ public class nonP {
 
         //Arrays
 
-        int[] arr=new int[12];
-        arr[0]=1000;
-        arr[1]=2000;
-        arr[2]=3000;
-        System.out.println(arr[10]);
+        int[] arr=new int [5];
+        arr[0]=22;
+        arr[1]=1;
+        arr[2]=55;
+        arr[3]=3;
+        arr[4]=99;
+        System.out.println(arr[1]);
+        // Length of an array
         System.out.println(arr.length);
-        
+        // Sorting the array
 
+        Arrays.sort(arr);
+        System.out.println(arr[1]);
 
 
 
