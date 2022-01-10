@@ -6,8 +6,10 @@ public class casting {
        System.out.println(finalPrice);
 
        int p=112;
-      double fPrice=p+13.0;
+      int fPrice=p+(int)13.0;
       System.out.println(fPrice);
+
+
 
 
     }
