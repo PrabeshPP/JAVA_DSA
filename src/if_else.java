@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class if_else {
     public static void main(String[]args){
-        //Exploring if-else in Java
+        //Exploring if-else in Java.
         Scanner scanner=new Scanner(System.in);
         System.out.println("Enter your age :");
         int age=scanner.nextInt();
