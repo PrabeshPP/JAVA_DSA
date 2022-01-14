@@ -6,6 +6,8 @@ public class overloadedMethod {
         System.out.println(sum);
         sum=add(10, 20, 30, 40);
         System.out.println(sum);
+        double sum1=add(10.89, 20.78);
+        System.out.println(sum1);
 
 
     }
@@ -23,6 +25,10 @@ public class overloadedMethod {
         System.out.println("This is Overloaded method #3");
         return x+y+z+a;
 
+    }
+    static double add(double x,double y){
+        System.out.println("This is an overloaded method with different return type but with same name method");
+        return x+y;
     }
 
     
