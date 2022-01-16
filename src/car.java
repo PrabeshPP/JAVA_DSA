@@ -1,11 +1,20 @@
 public class Car {
     // Blue-Print of the Car
 
-    String make="Chevrolet";
-    String model="Corvette";
-    int year=2020;
-    String color="blue";
-    double price= 50000.0;
+   final String make;
+   final String model;
+   final int year;
+   final String color;
+   final double price;
+
+   public Car(String make,String model,int year,String color,double price){
+       this.make=make;
+       this.model=model;
+       this.year=year;
+       this.color=color;
+       this.price=price;
+   }
+ 
 
     void drive(){
         System.out.println("You drive the car!");

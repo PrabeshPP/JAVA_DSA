@@ -4,11 +4,8 @@ public class Main {
             // example: (phone,desk,computer,coffee,cup)
 
         // Creating Instance of the car
-        Car myCar=new Car();
-        System.out.println(myCar.model);
-        //calling the method
-        myCar.drive();
-        myCar.brake();
+        Car myCar=new Car("ford","mustang",2020,"red",50000);
+        System.out.print(myCar.model);
 
 
     }
