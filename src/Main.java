@@ -6,7 +6,9 @@ public class Main {
         // Creating Instance of the car
         Car myCar=new Car();
         System.out.println(myCar.model);
-
+        //calling the method
+        myCar.drive();
+        myCar.brake();
 
 
     }
