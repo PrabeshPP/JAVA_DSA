@@ -4,7 +4,7 @@ public class prinf {
         boolean myBoolean=true;
         char myChar='s';
         String myString="Prabesh";
-        int myInt=120;
+        int myInt=12000000;
         double myDouble=1000.12234;
 
         double pie=Math.PI;
@@ -19,10 +19,11 @@ public class prinf {
         //minimum number of characters to be written as output
         System.out.printf("Hello %1s \n", myString);
         // Precison
-        System.out.printf("%.2f", pie);
+        System.out.printf("%.2f \n", pie);
 
         //flags
-        
+        System.out.printf("%,d", myInt);
+
         
     }
     
