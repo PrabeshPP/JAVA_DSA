@@ -1,8 +1,15 @@
 public class Pizza {
-   final String bread;
-   final String sauce;
-   final String cheese;
-   final  String topping;
+    String bread;
+    String sauce;
+    String cheese;
+    String topping;
+
+   Pizza(String bread){
+    this.bread=bread;
+     
+
+
+    }
 
     Pizza(String bread,String sauce,String cheese,String topping){
         this.bread=bread;
@@ -11,6 +18,7 @@ public class Pizza {
         this.topping=topping;
         
     }
+   
 
     
 
