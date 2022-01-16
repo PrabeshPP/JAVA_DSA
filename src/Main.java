@@ -8,6 +8,8 @@ public class Main {
         Car myCar1=new Car("ferrari","2020",2021,"red",100000);
         System.out.println(myCar.model);
         System.out.println(myCar1.model);
+        myCar.model();
+        myCar1.model();
 
 
     }

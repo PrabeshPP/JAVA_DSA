@@ -14,6 +14,10 @@ public class Car {
        this.color=color;
        this.price=price;
    }
+
+   void model(){
+       System.out.println(this.model+" is the model of the "+this.make);
+   }
  
 
     void drive(){
