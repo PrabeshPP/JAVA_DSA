@@ -1,4 +1,6 @@
-public class car {
+public class Car {
+    // Blue-Print of the Car
+
     String make="Chevrolet";
     String model="Corvette";
     int year=2020;
