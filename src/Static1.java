@@ -4,6 +4,8 @@ public class Static1 {
         Friend friend2=new Friend("Jack");
         Friend friend3=new Friend("Ali");
         Friend friend4=new Friend("SRK");
+
+        //calling a static method
         Friend.displayFriends();
     }
     
