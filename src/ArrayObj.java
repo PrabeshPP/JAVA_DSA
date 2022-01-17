@@ -10,6 +10,8 @@ public class ArrayObj {
         fridge[2]=food3;
 
         System.out.println(fridge[1].name);
+        System.out.println(fridge[0].name);
+        System.out.println(fridge[2].name);
 
         
     }
