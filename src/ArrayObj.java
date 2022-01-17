@@ -3,6 +3,7 @@ public class ArrayObj {
         Food food1=new Food("pizza");
         Food food2=new Food("hotdog");
         Food food3=new Food("Burger");
+        //Storing thhe objects in an array
         Food[] fridge={food1,food2,food3};
 
         System.out.println(fridge[1].name);
