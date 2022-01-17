@@ -3,6 +3,8 @@ public  class Main11 {
         Bicycle bicycle=new Bicycle();
        bicycle.go();
        bicycle.stop();
+       System.out.println(bicycle.color);
+       System.out.println(bicycle.wheels);
     }
     
 }
