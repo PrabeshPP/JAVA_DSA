@@ -6,7 +6,8 @@ public class obj {
         // prabesh is a reference to an object
         prabesh=new Student(12,"Prabesh Bista",97.1f);
         carlo=new Student(20, "Rocky", 99.99f);
-        
+        /* Since we are using toString() method in our class,
+        we can print all the properties of our class by calling reference variable of our obj */
         System.out.println(prabesh);
         System.out.println(carlo);
         
