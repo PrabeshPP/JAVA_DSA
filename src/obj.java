@@ -18,6 +18,7 @@ class Student{
 
     //Constructor of the class
     Student(int rno,String name,float marks){
+        // this is represents point to the reference objects of our classs
         this.rno=rno;
         this.name=name;
         this.marks=marks;
