@@ -1,6 +1,8 @@
 public class obj {
     public static void main(String[] args) {
         Student prabesh;
+
+        // prabesh is a reference to an object
         prabesh=new Student(12,"Prabesh Bista",97);
         
         System.out.println(prabesh);
