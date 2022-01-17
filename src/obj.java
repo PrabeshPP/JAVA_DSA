@@ -27,7 +27,7 @@ class Student{
         this.marks=marks;
 
     }
-
+    // overiding the toString() method 
     public String toString(){
         String p="Student name is "+name+"roll no. is " +rno+"and he has obtained "+marks+"in physics.";
        return p;
