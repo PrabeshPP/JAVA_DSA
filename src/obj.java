@@ -16,6 +16,7 @@ class Student{
     String name;
     float marks;
 
+    //Constructor of the class
     Student(int rno,String name,float marks){
         this.rno=rno;
         this.name=name;
