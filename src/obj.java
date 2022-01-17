@@ -3,7 +3,7 @@ public class obj {
         Student prabesh;
 
         // prabesh is a reference to an object
-        prabesh=new Student(12,"Prabesh Bista",97);
+        prabesh=new Student(12,"Prabesh Bista",97.1f);
         
         System.out.println(prabesh);
         
