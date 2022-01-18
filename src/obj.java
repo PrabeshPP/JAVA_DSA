@@ -10,6 +10,9 @@ public class obj {
         we can print all the properties of our class by calling reference variable of our obj */
         System.out.println(prabesh);
         System.out.println(carlo);
+
+        Student rocky=new Student();
+        System.out.println(rocky.name);
         
     }
     
@@ -28,9 +31,15 @@ class Student{
         this.marks=marks;
 
     }
+
+    Student(){
+        // call the constructor
+        this(13, "default person", 89.99f);
+    }
     // overiding the toString() method 
     public String toString(){
         String p="Student name is "+name+"roll no. is " +rno+"and he has obtained "+marks+"in physics.";
        return p;
 }
 }
+
