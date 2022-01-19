@@ -7,6 +7,10 @@ public class Main {
          System.out.println(prabesh.name);
          System.out.println(carlo.name);
          System.out.println(Human.population);
+
+         //static method can be called without any reference
+        //Whereas non-static method should be call using the instance of the function();
+         prabesh.greetings();
     }
     
 }

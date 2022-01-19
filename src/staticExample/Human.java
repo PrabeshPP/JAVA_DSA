@@ -12,4 +12,9 @@ public class Human {
         this.salary = salary;
         this.married = married;
     }
+
+    void greetings(){
+        System.out.println("Hello!"+name
+        );
+    }
 }
