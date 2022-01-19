@@ -1,6 +1,7 @@
 package staticExample;
 
 public class Human {
+    static int population=7;
     int age;
     String name;
     int salary;
