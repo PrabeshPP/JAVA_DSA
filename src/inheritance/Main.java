@@ -1,2 +1,7 @@
-package inheritance;public class Main {
+package inheritance;
+
+public class Main {
+    public static void main(String[] args) {
+
+    }
 }
