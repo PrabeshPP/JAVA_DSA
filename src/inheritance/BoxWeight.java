@@ -12,7 +12,7 @@ public class BoxWeight extends BaseClass {
     }
 
     BoxWeight(int number,String name,int age,double weight){
-        super(number,name,age);
+        super(number,name,age); // calling the constructor of the parent class
         this.weight=weight;
     }
 
