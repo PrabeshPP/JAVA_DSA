@@ -1,32 +1,29 @@
 package inheritance;
 
-public class BaseClass {
-    int number;
-    String name;
-    int age;
-    BaseClass(){
-        this.number=-1;
-        this.name=null;
-        this.age=-1;
-    }
-    BaseClass(int marks,String name,int age){
-        super();
-        this.number=marks;
-        this.name=name;
-        this.age=age;
-    }
+public class Box {
+   int length;
+   int breadth;
+   int width;
 
-    BaseClass(BaseClass baseClass){
-        this.number=baseClass.number;
-        this.age=baseClass.age;
-        this.name= baseClass.name;
-    }
+   Box(int l,int b,int w){
+       this.length=l;
+       this.breadth=b;
+       this.width=w;
+   }
 
-    void prinT(){
-        System.out.println("Your name is "+name);
-        System.out.println("Your age is "+age);
-        System.out.println("You have obtained "+number+"in math!");
-    }
+   Box(){
+       this.length=-1;
+       this.width=-1;
+       this.breadth=-1;
+   }
+
+   Box(Box box){
+       this.length=box.length;
+       this.breadth=box.breadth;
+       this.width=box.width;
+   }
+
+
 }
 
 
