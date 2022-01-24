@@ -2,6 +2,7 @@ package inheritance.hierarchial;
 
 public class Main {
     public static void main(String[] args) {
+        //
         // hierarchical inheritance
         // BMW inheriting the Car Class;
         BMW bmw=new BMW(120.68,"4","red","BMW A-Series",200000,4);

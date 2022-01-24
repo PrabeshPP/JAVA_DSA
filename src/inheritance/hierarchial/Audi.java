@@ -1,6 +1,7 @@
 package inheritance.hierarchial;
 
 public class Audi extends  Car{
+    //
     double weight;
 
     Audi(){

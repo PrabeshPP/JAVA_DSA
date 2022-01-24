@@ -1,6 +1,7 @@
 package inheritance.hierarchial;
 
 public class BMW extends Car{
+    //
 
     BMW(){
         super();
