@@ -10,9 +10,16 @@ public class BaseClass {
         this.age=-1;
     }
     BaseClass(int marks,String name,int age){
+        super();
         this.number=marks;
         this.name=name;
         this.age=age;
+    }
+
+    BaseClass(BaseClass baseClass){
+        this.number=baseClass.number;
+        this.age=baseClass.age;
+        this.name= baseClass.name;
     }
 
     void prinT(){
