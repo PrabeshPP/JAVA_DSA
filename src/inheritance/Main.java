@@ -8,6 +8,7 @@ public class Main {
         BoxPrice box=new BoxPrice();
         System.out.println(box.width);
         System.out.println(box.breadth);
+        System.out.println(box.weight);
     }
 
 }
