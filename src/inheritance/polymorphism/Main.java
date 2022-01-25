@@ -6,6 +6,7 @@ public class Main {
         Square square=new Square();
         Circle circle=new Circle();
         Triangle triangle=new Triangle();
+       circle.area();
 
     }
 }
