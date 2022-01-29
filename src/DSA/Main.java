@@ -1,6 +1,7 @@
 package DSA;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,9 +19,11 @@ public class Main {
 //            System.out.println(list1[i]);
 //        }
 
-
+        Scanner scanner=new Scanner(System.in);
         LinearSearching linearSearching=new LinearSearching();
-        int index=linearSearching.Linearsearch(list,34);
+        System.out.println("Enter the Number you want to search in the array:");
+        int target=scanner.nextInt();
+        int index=linearSearching.Linearsearch(list,target);
         if(index==-1){
             System.out.println("There is no number present in the list.");
 
