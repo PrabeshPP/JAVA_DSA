@@ -14,6 +14,9 @@ public class LinearSearching {
         }
 
 
-    return position;
+
+        return -1;
+
+
     }
 }

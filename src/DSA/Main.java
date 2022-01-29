@@ -30,18 +30,29 @@ public class Main {
 //        }else{
 //            System.out.println("Your number exist at "+index);
 //        }
+//
+//        String str="My name is Prabesh Bista";
+//        String targetString=scanner.next();
+//       SearchinString searchinString=new SearchinString();
+//       boolean value=searchinString.searchinstring(str,targetString);
+//       if(value){
+//           System.out.println("Yes,the target string exist in the given string value");
+//
+//       }else{
+//           System.out.println("It doesnot contain any target string");
+//       }
 
-        String str="My name is Prabesh Bista";
-        String targetString=scanner.next();
-       SearchinString searchinString=new SearchinString();
-       boolean value=searchinString.searchinstring(str,targetString);
-       if(value){
-           System.out.println("Yes,the target string exist in the given string value");
 
-       }else{
-           System.out.println("It doesnot contain any target string");
-       }
-
+        int[] arr={18,12,-7,3,14,28} ;
+        linear_searching_range linearSearchingRange=new linear_searching_range();
+        System.out.println("Enter the number you want to search in the given array using linear search algorithm:");
+        int target=scanner.nextInt();
+        int index= linearSearchingRange.linearSearchingRange(arr,target);
+        if(index==-1){
+            System.out.println("Number not found");
+        }else{
+            System.out.println("Numbers found at the position "+index);
+        }
 
     }
 }
