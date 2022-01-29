@@ -72,7 +72,7 @@ public class Main {
         };
 
         Search2DArray search2DArray=new Search2DArray();
-        int[] pos=search2DArray.search(arr,121);
+        int[] pos=search2DArray.search(arr,1211);
         System.out.println("Your search value lies at ("+pos[0]+" , "+pos[1]+").");
 
 
