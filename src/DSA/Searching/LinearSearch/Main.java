@@ -44,7 +44,7 @@ public class Main {
 
         // LinearSearch in Range
 
-        int[] arr={18,12,-7,3,14,28} ;
+//        int[] arr={18,12,-7,3,14,28} ;
 //        linear_searching_range linearSearchingRange=new linear_searching_range();
 //        System.out.println("Enter the number you want to search in the given array using linear search algorithm:");
 //        int target=scanner.nextInt();
@@ -59,9 +59,25 @@ public class Main {
 
         // finding the minimum number in the array
 
-        MiniNum miniNum=new MiniNum();
-        int min=miniNum.FindMin(arr);
-        System.out.println("The minimum number in the array is "+min);
+//        MiniNum miniNum=new MiniNum();
+//        int min=miniNum.FindMin(arr);
+//        System.out.println("The minimum number in the array is "+min);
+
+
+
+
+        int[][] arr={
+                {1,78,8,10},
+                {22,99,100,121}
+        };
+
+        Search2DArray search2DArray=new Search2DArray();
+        int[] pos=search2DArray.search(arr,121);
+        System.out.println("Your search value lies at ("+pos[0]+" , "+pos[1]+").");
+
+
 
     }
+
+
 }
