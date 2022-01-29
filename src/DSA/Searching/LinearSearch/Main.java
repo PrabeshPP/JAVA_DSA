@@ -67,15 +67,17 @@ public class Main {
 
 
         int[][] arr={
-                {1,78,8,10},
-                {22,99,100,121}
+                {2,8,7},{7,1,3},{1,9,5}
         };
 
-        Search2DArray search2DArray=new Search2DArray();
-        int[] pos=search2DArray.search(arr,1211);
-        System.out.println("Your search value lies at ("+pos[0]+" , "+pos[1]+").");
+//        Search2DArray search2DArray=new Search2DArray();
+//        int[] pos=search2DArray.search(arr,1211);
+//        System.out.println("Your search value lies at ("+pos[0]+" , "+pos[1]+").");
 
+            WealthFinder wealthFinder=new WealthFinder();
+            int wealth=wealthFinder.wealthfinder(arr);
 
+            System.out.println(wealth);
 
     }
 
