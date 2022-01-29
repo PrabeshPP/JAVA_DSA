@@ -43,16 +43,26 @@ public class Main {
 //       }
 
 
+        // LinearSearch in Range
+
         int[] arr={18,12,-7,3,14,28} ;
-        linear_searching_range linearSearchingRange=new linear_searching_range();
-        System.out.println("Enter the number you want to search in the given array using linear search algorithm:");
-        int target=scanner.nextInt();
-        int index= linearSearchingRange.linearSearchingRange(arr,target);
-        if(index==-1){
-            System.out.println("Number not found");
-        }else{
-            System.out.println("Numbers found at the position "+index);
-        }
+//        linear_searching_range linearSearchingRange=new linear_searching_range();
+//        System.out.println("Enter the number you want to search in the given array using linear search algorithm:");
+//        int target=scanner.nextInt();
+//        int index= linearSearchingRange.linearSearchingRange(arr,target);
+//        if(index==-1){
+//            System.out.println("Number not found");
+//        }else{
+//            System.out.println("Numbers found at the position "+index);
+//        }
+
+
+
+        // finding the minimum number in the array
+
+        MiniNum miniNum=new MiniNum();
+        int min=miniNum.FindMin(arr);
+        System.out.println("The minimum number in the array is "+min);
 
     }
 }
