@@ -20,16 +20,27 @@ public class Main {
 //        }
 
         Scanner scanner=new Scanner(System.in);
-        LinearSearching linearSearching=new LinearSearching();
-        System.out.println("Enter the Number you want to search in the array:");
-        int target=scanner.nextInt();
-        int index=linearSearching.Linearsearch(list,target);
-        if(index==-1){
-            System.out.println("There is no number present in the list.");
+//        LinearSearching linearSearching=new LinearSearching();
+//        System.out.println("Enter the Number you want to search in the array:");
+//        int target=scanner.nextInt();
+//        int index=linearSearching.Linearsearch(list,target);
+//        if(index==-1){
+//            System.out.println("There is no number present in the list.");
+//
+//        }else{
+//            System.out.println("Your number exist at "+index);
+//        }
 
-        }else{
-            System.out.println("Your number exist at "+index);
-        }
+        String str="My name is Prabesh Bista";
+        String targetString=scanner.next();
+       SearchinString searchinString=new SearchinString();
+       boolean value=searchinString.searchinstring(str,targetString);
+       if(value){
+           System.out.println("Yes,the target string exist in the given string value");
+
+       }else{
+           System.out.println("It doesnot contain any target string");
+       }
 
 
     }
