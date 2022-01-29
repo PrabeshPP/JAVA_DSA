@@ -1,4 +1,4 @@
-package DSA;
+package DSA.Searching.LinearSearch;
 
 public class AddList {
 

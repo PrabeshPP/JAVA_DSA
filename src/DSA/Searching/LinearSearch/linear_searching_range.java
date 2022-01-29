@@ -1,4 +1,4 @@
-package DSA;
+package DSA.Searching.LinearSearch;
 
 public class linear_searching_range {
     int linearSearchingRange(int[] list ,int target){
