@@ -6,5 +6,7 @@ public class Main {
         boolean x=solution.isPalindrome(123);
         System.out.println(x);
 
+
+
     }
 }
