@@ -1,5 +1,7 @@
 package leetCode;
 
+import java.awt.*;
+
 public class Solution2 {
     enum Day {
         Sunday,
@@ -32,11 +34,21 @@ public class Solution2 {
     }
 
     void addEven(int n){
+        int sum=0;
         for(int i=0;i<=n;i+=2){
-            int sum=0;
             sum+=i;
-            System.out.println("The sum of the first even number is "+sum);
+        }
+        System.out.println("The sum of the first even number is "+sum);
+    }
 
+    void printPattern(){
+        int row=5;
+        int column=5;
+        for(int i=0;i<row;++i){
+            for(int j=i;j<column;++j){
+                System.out.print("*");
+            }
+            System.out.println("");
         }
     }
 

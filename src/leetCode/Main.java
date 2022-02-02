@@ -15,7 +15,9 @@ public class Main {
 
 //        solution2.incomeTax(2000000000);
 
+//        solution2.addEven(10);
 
+        solution2.printPattern();
 
 
 
