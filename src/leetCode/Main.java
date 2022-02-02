@@ -9,7 +9,9 @@ public class Main {
         Solution2 solution2=new Solution2();
 //        solution2.muliolication(8);
 
-        solution2.add(10,20);
+//        solution2.add(10,20);
+
+        solution2.findDay(3);
 
 
 

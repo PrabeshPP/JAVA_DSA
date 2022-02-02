@@ -1,7 +1,17 @@
 package leetCode;
 
 public class Solution2 {
-    void muliolication(int n){
+    enum Day {
+        Sunday,
+        Monday,
+        Tuesday,
+        Wednesday,
+        Thursday,
+        Friday,
+        Saturday
+
+    }
+    void multiplication(int n){
         for(int i=1;i<=10;++i){
             System.out.println(i+" * "+n+" = "+i*n);
         }
@@ -10,4 +20,11 @@ public class Solution2 {
     void add(int n1,int n2){
         System.out.println("The sum of two numbers is "+(n1+n2));
     }
+
+    void findDay(int n){
+        String day=Day.values()[n].toString();
+        System.out.println("The day of the week is "+day);
+    }
+
+
 }
