@@ -31,5 +31,14 @@ public class Solution2 {
         System.out.println("The amount of salary you will receive after the tax deduction is "+remSalary);
     }
 
+    void addEven(int n){
+        for(int i=0;i<=n;i+=2){
+            int sum=0;
+            sum+=i;
+            System.out.println("The sum of the first even number is "+sum);
+
+        }
+    }
+
 
 }
