@@ -26,5 +26,10 @@ public class Solution2 {
         System.out.println("The day of the week is "+day);
     }
 
+    void incomeTax(long salary){
+        long remSalary=(long)(salary-0.13*salary);
+        System.out.println("The amount of salary you will receive after the tax deduction is "+remSalary);
+    }
+
 
 }
