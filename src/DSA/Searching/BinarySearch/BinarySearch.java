@@ -1,21 +1,16 @@
 package DSA.Searching.BinarySearch;
 
 public class BinarySearch {
-   int[] arr;
-   int target;
-
-    public BinarySearch(int[] arr1, int target) {
-        this.arr = arr1;
-        this.target = target;
-    }
-
-    int initialPos=0;
-    int finalPos=arr.length-1;
-    int mid=(initialPos+finalPos)/2;
 
 
-    int find(){
-        while(initialPos<finalPos){
+
+
+
+    int find(int[] arr,int target){
+        int initialPos=0;
+        int finalPos=arr.length-1;
+        int mid=(initialPos+finalPos)/2;
+        while(initialPos<=finalPos){
             if(target==arr[mid]){
                 return mid;
 
@@ -30,7 +25,7 @@ public class BinarySearch {
             }
 
         }
-        return  -1;
+    return  -1;
 
     }
 
