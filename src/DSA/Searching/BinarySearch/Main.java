@@ -20,9 +20,18 @@ public class Main {
 //            System.out.println("Oops!The target element could not be found");
 //        }
 
-        PerfectSquare perfectSquare=new PerfectSquare();
-        boolean result=perfectSquare.findPerfectSquare(1);
-        System.out.println(result);
+//        PerfectSquare perfectSquare=new PerfectSquare();
+//        boolean result=perfectSquare.findPerfectSquare(1);
+//        System.out.println(result);
+
+        int[] arr11={2,3,5,9,14,16,18};
+//        Ceil ceil=new Ceil();
+//        int index=ceil.findCeil(arr11,4);
+//        System.out.println(index);
+
+        Floor floor=new Floor();
+        int num= floor.findFloor(arr11,10);
+        System.out.println(num);
 
 
 
