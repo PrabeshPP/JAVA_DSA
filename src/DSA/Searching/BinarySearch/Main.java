@@ -24,14 +24,14 @@ public class Main {
 //        boolean result=perfectSquare.findPerfectSquare(1);
 //        System.out.println(result);
 
-        int[] arr11={2,3,5,9,14,16,18};
+//        int[] arr11={2,3,5,9,14,16,18};
 //        Ceil ceil=new Ceil();
 //        int index=ceil.findCeil(arr11,4);
 //        System.out.println(index);
 
-        Floor floor=new Floor();
-        int num= floor.findFloor(arr11,10);
-        System.out.println(num);
+//        Floor floor=new Floor();
+//        int num= floor.findFloor(arr11,10);
+//        System.out.println(num);
 
         // Smallest char that is greater than the given target
 
@@ -40,6 +40,11 @@ public class Main {
 //        SmallestChar smallestChar=new SmallestChar();
 //        char result=smallestChar.findSmallestChar(letters,target);
 //        System.out.println(result);
+        int[] nums={5,7,7,8,8,10};
+        int target=8;
+        SearchRange searchRange=new SearchRange();
+        int[] result=searchRange.searchRange(nums,target);
+        System.out.println(result[0]+ " "+result[1]);
 
 
 
