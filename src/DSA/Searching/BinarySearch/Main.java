@@ -33,6 +33,14 @@ public class Main {
         int num= floor.findFloor(arr11,10);
         System.out.println(num);
 
+        // Smallest char that is greater than the given target
+
+//        char[] letters={'a','b'};
+//        char target='z';
+//        SmallestChar smallestChar=new SmallestChar();
+//        char result=smallestChar.findSmallestChar(letters,target);
+//        System.out.println(result);
+
 
 
     }
