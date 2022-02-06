@@ -1,6 +1,7 @@
 package leetCode;
 
 import java.util.Scanner;
+import java.util.Stack;
 
 public class Main {
     public static void main(String[] args) {
@@ -21,18 +22,51 @@ public class Main {
 
 //        solution2.printPattern();
 
-        Scanner scanner=new Scanner(System.in);
-        System.out.print("Enter the year(ex.2019) :");
-        int year=scanner.nextInt();
-        leap leapp=new leap();
-        boolean result=leapp.isLeapYear(year);
-        if(result){
-            System.out.println(year+" is a leap year");
-        }else{
-            System.out.println(year+"is not a leap year");
+//        Scanner scanner=new Scanner(System.in);
+//        System.out.print("Enter the year(ex.2019) :");
+//        int year=scanner.nextInt();
+//        leap leapp=new leap();
+//        boolean result=leapp.isLeapYear(year);
+//        if(result){
+//            System.out.println(year+" is a leap year");
+//        }else{
+//            System.out.println(year+"is not a leap year");
+//        }
+
+//        String[] arr={"flower","flow","flight"};
+//        lngPrefix lngprefix=new lngPrefix();
+//       String pref= lngprefix.longestCommonPrefix(arr);
+//        System.out.println(pref);
+
+        String s="[[[]";
+        parenthesis p=new parenthesis();
+        boolean x=p.isValid(s);
+
+        System.out.println(x);
+//
+//        Stack<Character> stack = new Stack<Character>();
+//        for (int i = 0; i < s.length(); i++) {
+//            if (s.charAt(i) == '(' || s.charAt(i) == '{' || s.charAt(i) == '[') {
+//                stack.push(s.charAt(i));
+//            }
+//
+//            }
+//        for(int i=0;i<5;++i){
+//            System.out.println(stack.pop());
+//        }
+
+
+
+
+
+
+
+
         }
 
 
 
-    }
+
+
+
 }
