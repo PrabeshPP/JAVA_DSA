@@ -6,21 +6,18 @@ public class MountainArray {
     int findIndex(int[] arr){
         int start=0;
         int end=arr.length-1;
-        int peak=0;
-        while(start<=end){
+        while(start<end){
+            //[0,1,0]
             int mid=start+(end-start)/2;
-            if(arr[mid]>arr[mid+1] && arr[mid]>arr[mid-1]){
-                peak=mid;
-                return  peak;
+            if(arr[mid]>arr[mid+1] ){
+               end=mid;
 
-            }else  if(arr[mid]<arr[mid+1]){
-                start=mid+1;
             }else{
-                end=mid-1;
+                start=mid+1;
             }
         }
 
-        return  peak;
+        return  start;
 
     }
 }
