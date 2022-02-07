@@ -1,6 +1,8 @@
 package DSA.Searching.BinarySearch;
 
 public class MountainArray {
+
+    // Finding the index of the peak in a Mountain Array.
     int findIndex(int[] arr){
         int start=0;
         int end=arr.length-1;
