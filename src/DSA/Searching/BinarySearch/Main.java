@@ -62,7 +62,7 @@ public class Main {
 //            System.out.println("The searched number is not in the array.");
 //        }
 
-
+        //
         MountainArray mountainArray=new MountainArray();
         int index=mountainArray.findIndex(arr11);
         System.out.println(index);
