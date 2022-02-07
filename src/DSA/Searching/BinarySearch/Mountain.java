@@ -5,14 +5,18 @@ public class Mountain {
     int findMinIndex(int[] arr,int target){
         int[] list=new int[2];
         int peakIndex=findPeakIndex(arr);
-        int index1=binarySearch(arr,3,0,peakIndex,true);
-        int index2=binarySearch(arr,3,peakIndex+1, arr.length,false );
 
-        if(index1<index2){
-            return  index1;
-        }else{
-            return  index2;
-        }
+        int index1=binarySearch(arr,target,0,peakIndex,true);
+        System.out.println(index1);
+        int index2=binarySearch(arr,target,peakIndex+1, arr.length-1,false );
+        System.out.println(index2);
+      if(index1!=-1 && index2!=-1){
+          return index1;
+      }else if(index1==-1){
+          return index2;
+      }else{
+          return  index1;
+      }
 
 
     }
