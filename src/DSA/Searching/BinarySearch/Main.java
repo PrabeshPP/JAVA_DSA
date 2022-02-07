@@ -52,7 +52,7 @@ public class Main {
 
         // finding the number in an infinite length of an array
 
-        int[] arr11={0,1,2,4,10,5,2,1};
+        int[] arr11={0,1,2,4,2,1};
 //        int target=16;
 //        InfiniteNumbers infiniteNumbers=new InfiniteNumbers();
 //        int index=infiniteNumbers.findAns(arr11,target);
@@ -63,9 +63,14 @@ public class Main {
 //        }
 
         //
-        MountainArray mountainArray=new MountainArray();
-        int index=mountainArray.findIndex(arr11);
-        System.out.println(index);
+//        MountainArray mountainArray=new MountainArray();
+//        int index=mountainArray.findIndex(arr11);
+//        System.out.println(index);
+
+        Mountain mountain=new Mountain();
+       int index= mountain.findMinIndex(arr11,3);
+       System.out.println(index);
+
 
     }
 }
