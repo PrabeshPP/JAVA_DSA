@@ -52,16 +52,20 @@ public class Main {
 
         // finding the number in an infinite length of an array
 
-        int[] arr11={2,3,5,9,14,16,18};
-        int target=16;
-        InfiniteNumbers infiniteNumbers=new InfiniteNumbers();
-        int index=infiniteNumbers.findAns(arr11,target);
-        if(index>=0){
-            System.out.println("Your entered number is at "+index);
-        }else{
-            System.out.println("The searched number is not in the array.");
-        }
+        int[] arr11={0,1,2,4,10,5,2,1};
+//        int target=16;
+//        InfiniteNumbers infiniteNumbers=new InfiniteNumbers();
+//        int index=infiniteNumbers.findAns(arr11,target);
+//        if(index>=0){
+//            System.out.println("Your entered number is at "+index);
+//        }else{
+//            System.out.println("The searched number is not in the array.");
+//        }
 
+
+        MountainArray mountainArray=new MountainArray();
+        int index=mountainArray.findIndex(arr11);
+        System.out.println(index);
 
     }
 }
