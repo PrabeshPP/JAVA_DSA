@@ -5,7 +5,7 @@ public class RotateArray {
         int index=-1;
         int peakIndex=peakIndex(nums);
         int index1=binarySearch(nums,target,0,peakIndex);
-        int index2=binarySearch(nums,target,peakIndex+1,nums.length);
+        int index2=binarySearch(nums,target,peakIndex+1,nums.length-1);
 
         if(index1==-1 && index2==-1){
             return  -1;
@@ -24,7 +24,7 @@ public class RotateArray {
 
     int peakIndex(int[] nums){
         int start=0;
-        int end=nums.length;
+        int end=nums.length-1;
         while(start<end){
             int mid=start+(end-start)/2;
             if(nums[mid]>nums[mid+1]){

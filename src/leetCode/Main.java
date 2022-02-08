@@ -55,7 +55,7 @@ public class Main {
 //            System.out.println(stack.pop());
 //        }
 
-        int [] nums={4,5,6,7,0,1,2};
+        int [] nums={1};
         int target=0;
 
         RotateArray rotateArray=new RotateArray();
