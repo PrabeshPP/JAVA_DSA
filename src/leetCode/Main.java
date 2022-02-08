@@ -38,11 +38,11 @@ public class Main {
 //       String pref= lngprefix.longestCommonPrefix(arr);
 //        System.out.println(pref);
 
-        String s="[[[]";
-        parenthesis p=new parenthesis();
-        boolean x=p.isValid(s);
-
-        System.out.println(x);
+//        String s="[[[]";
+//        parenthesis p=new parenthesis();
+//        boolean x=p.isValid(s);
+//
+//        System.out.println(x);
 //
 //        Stack<Character> stack = new Stack<Character>();
 //        for (int i = 0; i < s.length(); i++) {
@@ -54,6 +54,13 @@ public class Main {
 //        for(int i=0;i<5;++i){
 //            System.out.println(stack.pop());
 //        }
+
+        int [] nums={4,5,6,7,0,1,2};
+        int target=0;
+
+        RotateArray rotateArray=new RotateArray();
+        int index=rotateArray.search(nums,target);
+        System.out.println(index);
 
 
 
