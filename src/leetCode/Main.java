@@ -57,14 +57,16 @@ public class Main {
 
 
         //Solved
-        int [] nums={6,7,1,2,3,4,5};
-        int target=6;
+//        int [] nums={6,7,1,2,3,4,5};
+//        int target=6;
+//
+//        RotateArray rotateArray=new RotateArray();
+//        int index=rotateArray.search(nums,target);
+//        System.out.println(index);
 
-        RotateArray rotateArray=new RotateArray();
-        int index=rotateArray.search(nums,target);
-        System.out.println(index);
-
-
+        POS pos=new POS();
+        int value= pos.subtractProductAndSum(4421);
+        System.out.println(value);
 
 
 
