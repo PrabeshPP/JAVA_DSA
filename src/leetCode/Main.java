@@ -55,8 +55,10 @@ public class Main {
 //            System.out.println(stack.pop());
 //        }
 
-        int [] nums={1,3};
-        int target=3;
+
+        //Solved
+        int [] nums={6,7,1,2,3,4,5};
+        int target=6;
 
         RotateArray rotateArray=new RotateArray();
         int index=rotateArray.search(nums,target);
