@@ -55,8 +55,8 @@ public class Main {
 //            System.out.println(stack.pop());
 //        }
 
-        int [] nums={3,4,5,6,7,0,1,2};
-        int target=1;
+        int [] nums={1,3};
+        int target=3;
 
         RotateArray rotateArray=new RotateArray();
         int index=rotateArray.search(nums,target);
