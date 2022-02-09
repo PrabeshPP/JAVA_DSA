@@ -8,6 +8,7 @@ public class Main {
 
         System.out.println(value);
         System.out.println(lcmValue);
+
     }
 
 
