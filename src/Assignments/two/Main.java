@@ -5,15 +5,22 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
-        NumberStatus numberStatus=new NumberStatus();
-        System.out.print("Enter the number to check whether the given number is even or odd:");
-        int number=scanner.nextInt();
-        boolean isEven= numberStatus.isEven(number);
-        if(isEven){
-            System.out.println("The number is even.");
-        }else{
-            System.out.println("The number is odd.");
-        }
+//        NumberStatus numberStatus=new NumberStatus();
+//        System.out.print("Enter the number to check whether the given number is even or odd:");
+//        int number=scanner.nextInt();
+//        boolean isEven= numberStatus.isEven(number);
+//        if(isEven){
+//            System.out.println("The number is even.");
+//        }else{
+//            System.out.println("The number is odd.");
+//        }
+
+        System.out.println("Please,enter your name!");
+        String name=scanner.nextLine();
+
+        Greetings greetings=new Greetings();
+        greetings.greet(name);
+
 
     }
 
