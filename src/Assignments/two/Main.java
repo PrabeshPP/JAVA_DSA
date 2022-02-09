@@ -22,17 +22,20 @@ public class Main {
 //        greetings.greet(name);
 
 
-        SI si=new SI();
-        System.out.print("Enter the principal amount:");
-        double p=scanner.nextDouble();
-        System.out.print("Enter the rate:");
-        double r=scanner.nextDouble();
-        System.out.print("Enter the time period:");
-        double t=scanner.nextDouble();
+//        SI si=new SI();
+//        System.out.print("Enter the principal amount:");
+//        double p=scanner.nextDouble();
+//        System.out.print("Enter the rate:");
+//        double r=scanner.nextDouble();
+//        System.out.print("Enter the time period:");
+//        double t=scanner.nextDouble();
+//
+//        double simpleInterest=si.simpleInterest(p,t,r);
+//
+//        System.out.println("The Simple Interest is "+simpleInterest);
 
-        double simpleInterest=si.simpleInterest(p,t,r);
-
-        System.out.println("The Simple Interest is "+simpleInterest);
+        Fibonacci fibonacci=new Fibonacci();
+        fibonacci.printFibonacci(2);
 
 
     }
