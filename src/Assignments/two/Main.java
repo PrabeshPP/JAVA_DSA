@@ -15,11 +15,24 @@ public class Main {
 //            System.out.println("The number is odd.");
 //        }
 
-        System.out.println("Please,enter your name!");
-        String name=scanner.nextLine();
+//        System.out.println("Please,enter your name!");
+//        String name=scanner.nextLine();
+//
+//        Greetings greetings=new Greetings();
+//        greetings.greet(name);
 
-        Greetings greetings=new Greetings();
-        greetings.greet(name);
+
+        SI si=new SI();
+        System.out.print("Enter the principal amount:");
+        double p=scanner.nextDouble();
+        System.out.print("Enter the rate:");
+        double r=scanner.nextDouble();
+        System.out.print("Enter the time period:");
+        double t=scanner.nextDouble();
+
+        double simpleInterest=si.simpleInterest(p,t,r);
+
+        System.out.println("The Simple Interest is "+simpleInterest);
 
 
     }
