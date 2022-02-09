@@ -13,4 +13,16 @@ public class HCFLCM {
         return temp1;
 
     }
+
+    int findLCM(int num1,int num2){
+        int diff;
+        if(num2>num1){
+            diff=num2-num1;
+        }else{
+            diff=num1-num2;
+
+        }
+
+        return (num1*num2)/diff;
+    }
 }
