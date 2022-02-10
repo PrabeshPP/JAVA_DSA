@@ -64,9 +64,9 @@ public class Main {
 //        int index=rotateArray.search(nums,target);
 //        System.out.println(index);
 
-        POS pos=new POS();
-        int value= pos.subtractProductAndSum(4421);
-        System.out.println(value);
+//        POS pos=new POS();
+////        int value= pos.subtractProductAndSum(4421);
+////        System.out.println(value);
 
 
 
