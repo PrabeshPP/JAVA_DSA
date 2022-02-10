@@ -57,7 +57,7 @@ public class Main {
 
 
         //Solved
-        int [] nums={15,18,2,3,6,12};
+        int [] nums={12,5,7,9,11};
 //        int target=6;
 //
 //        RotateArray rotateArray=new RotateArray();
@@ -71,7 +71,12 @@ public class Main {
         RotatedArrayIndex rotatedArrayIndex=new RotatedArrayIndex();
 
         int index= rotatedArrayIndex.findRotateArrayIndex(nums);
-        System.out.println(index);
+        if(index==-1){
+            System.out.println(0);
+        }else{
+            System.out.println(index);
+        }
+
 
 
 
