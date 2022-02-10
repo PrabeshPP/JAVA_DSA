@@ -57,7 +57,7 @@ public class Main {
 
 
         //Solved
-        int [] nums={4,5,6,7,0,1,2};
+//        int [] nums={4,5,6,7,0,1,2};
 //        int target=6;
 //
 //        RotateArray rotateArray=new RotateArray();
@@ -77,8 +77,11 @@ public class Main {
 //            System.out.println(index);
 //        }
 
-
+            int[] arr={7,2,5,10,8};
         SplitArray splitArray=new SplitArray();
+
+        int sumExpected= splitArray.findMaxSumofSplitArray(arr,2);
+        System.out.println(sumExpected);
 
 
 
