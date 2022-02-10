@@ -68,14 +68,14 @@ public class Main {
 ////        int value= pos.subtractProductAndSum(4421);
 ////        System.out.println(value);
 
-        RotatedArrayIndex rotatedArrayIndex=new RotatedArrayIndex();
-
-        int index= rotatedArrayIndex.findRotateArrayIndex(nums);
-        if(index==-1){
-            System.out.println(0);
-        }else{
-            System.out.println(index);
-        }
+//        RotatedArrayIndex rotatedArrayIndex=new RotatedArrayIndex();
+//
+//        int index= rotatedArrayIndex.findRotateArrayIndex(nums);
+//        if(index==-1){
+//            System.out.println(0);
+//        }else{
+//            System.out.println(index);
+//        }
 
 
 
