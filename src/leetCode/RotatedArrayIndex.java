@@ -1,6 +1,6 @@
 package leetCode;
 
-public class RotatedArrayIndex() {
+public class RotatedArrayIndex {
 
     int findRotateArrayIndex(int[] nums){
         int start=0;
