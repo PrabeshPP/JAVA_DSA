@@ -57,7 +57,7 @@ public class Main {
 
 
         //Solved
-        int [] nums={12,5,7,9,11};
+        int [] nums={4,5,6,7,0,1,2};
 //        int target=6;
 //
 //        RotateArray rotateArray=new RotateArray();
