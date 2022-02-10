@@ -15,18 +15,18 @@ public class SplitArray {
         while(start<end){
             int mid=start+(end-start)/2;
             int sum=0;
-            int arrayNumber=0;
+            int arrayNumber=1;
             for(int num:arr){
                 if(sum+num>mid){
                     sum=num;
-                    arrayNumber++;
+                    arrayNumber ++;
                 }else{
                     sum+=num;
                 }
             }
 
             if(arrayNumber>m){
-                start=mid;
+                start=mid+1;
             }else{
                 end=mid;
             }
