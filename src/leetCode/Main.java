@@ -57,7 +57,7 @@ public class Main {
 
 
         //Solved
-//        int [] nums={6,7,1,2,3,4,5};
+        int [] nums={15,18,2,3,6,12};
 //        int target=6;
 //
 //        RotateArray rotateArray=new RotateArray();
@@ -67,6 +67,11 @@ public class Main {
 //        POS pos=new POS();
 ////        int value= pos.subtractProductAndSum(4421);
 ////        System.out.println(value);
+
+        RotatedArrayIndex rotatedArrayIndex=new RotatedArrayIndex();
+
+        int index= rotatedArrayIndex.findRotateArrayIndex(nums);
+        System.out.println(index);
 
 
 
