@@ -78,6 +78,10 @@ public class Main {
 //        }
 
 
+        SplitArray splitArray=new SplitArray();
+
+
+
 
 
 
