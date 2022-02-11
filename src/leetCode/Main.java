@@ -77,11 +77,16 @@ public class Main {
 //            System.out.println(index);
 //        }
 
-            int[] arr={7,2,5,10,8};
-        SplitArray splitArray=new SplitArray();
-
-        int sumExpected= splitArray.findMaxSumofSplitArray(arr,2);
-        System.out.println(sumExpected);
+            int[] arr={1,2,3,4,4,3,2,1};
+//        SplitArray splitArray=new SplitArray();
+//
+//        int sumExpected= splitArray.findMaxSumofSplitArray(arr,2);
+//        System.out.println(sumExpected);
+        Shuffle shuffle=new Shuffle();
+        int[] arr1=shuffle.shuffle(arr,4);
+        for(int i=0;i<arr1.length;++i){
+            System.out.print(arr1[i]);
+        }
 
 
 
