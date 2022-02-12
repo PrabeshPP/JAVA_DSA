@@ -79,7 +79,7 @@ public class Main {
 //            System.out.println(index);
 //        }
 
-            int[] arr={1,2,3};
+            int[] arr={8,1,2,2,3};
 //        SplitArray splitArray=new SplitArray();
 //
 //        int sumExpected= splitArray.findMaxSumofSplitArray(arr,2);
@@ -96,10 +96,14 @@ public class Main {
 //        System.out.println(li.get(3));
 
 
-        GooddPairs gooddPairs=new GooddPairs();
-        int pairs=gooddPairs.numIdenticalPairs(arr);
-        System.out.println(pairs);
+//        GooddPairs gooddPairs=new GooddPairs();
+//        int pairs=gooddPairs.numIdenticalPairs(arr);
+//        System.out.println(pairs);
 
+
+        SmallArray smallArray=new SmallArray();
+        int[] res=smallArray.smallerNumbersThanCurrent(arr);
+        System.out.println(res[0]+" "+res[2]);
 
 
 
