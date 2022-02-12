@@ -79,7 +79,7 @@ public class Main {
 //            System.out.println(index);
 //        }
 
-            int[] arr={2,3,5,1,3};
+            int[] arr={1,2,3};
 //        SplitArray splitArray=new SplitArray();
 //
 //        int sumExpected= splitArray.findMaxSumofSplitArray(arr,2);
@@ -90,10 +90,15 @@ public class Main {
 //            System.out.print(arr1[i]);
 //        }
 
-        MaxCandies maxCandies=new MaxCandies();
-        List<Boolean> li=maxCandies.kidsWithCandies(arr,3);
+//        MaxCandies maxCandies=new MaxCandies();
+//        List<Boolean> li=maxCandies.kidsWithCandies(arr,3);
+//
+//        System.out.println(li.get(3));
 
-        System.out.println(li.get(3));
+
+        GooddPairs gooddPairs=new GooddPairs();
+        int pairs=gooddPairs.numIdenticalPairs(arr);
+        System.out.println(pairs);
 
 
 
