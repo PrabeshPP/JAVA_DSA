@@ -1,5 +1,7 @@
 package leetCode;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 import java.util.Stack;
 
@@ -77,16 +79,21 @@ public class Main {
 //            System.out.println(index);
 //        }
 
-            int[] arr={1,2,3,4,4,3,2,1};
+            int[] arr={2,3,5,1,3};
 //        SplitArray splitArray=new SplitArray();
 //
 //        int sumExpected= splitArray.findMaxSumofSplitArray(arr,2);
 //        System.out.println(sumExpected);
-        Shuffle shuffle=new Shuffle();
-        int[] arr1=shuffle.shuffle(arr,4);
-        for(int i=0;i<arr1.length;++i){
-            System.out.print(arr1[i]);
-        }
+//        Shuffle shuffle=new Shuffle();
+//        int[] arr1=shuffle.shuffle(arr,4);
+//        for(int i=0;i<arr1.length;++i){
+//            System.out.print(arr1[i]);
+//        }
+
+        MaxCandies maxCandies=new MaxCandies();
+        List<Boolean> li=maxCandies.kidsWithCandies(arr,3);
+
+        System.out.println(li.get(3));
 
 
 
