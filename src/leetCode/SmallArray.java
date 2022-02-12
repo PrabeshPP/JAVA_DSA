@@ -6,7 +6,7 @@ public class SmallArray {
 
 
 
-        return  result;w
+        return  result;
 
     }
 }
