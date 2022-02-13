@@ -1,9 +1,6 @@
 package leetCode;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-import java.util.Stack;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -123,7 +120,16 @@ public class Main {
 //        System.out.println(result);
 
 
+        List<List<String>> lists= new ArrayList<List<String>>();
 
+        lists.add(List.of(new String[]{"phone", "blue", "pixel"}));
+        lists.add(List.of(new String[]{"computer", "silver", "lenovo"}));
+        lists.add(List.of(new String[]{"phone","gold","iphone"}));
+
+        MatchingItem matchingItem=new MatchingItem();
+        int result=matchingItem.countMatches(lists,"name","pixel");
+
+        System.out.print(result);
 
 
 
