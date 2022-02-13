@@ -110,9 +110,9 @@ public class Main {
 
         TargetArray targetArray=new TargetArray();
         int[] arr202= targetArray.createTargetArray(nums,index);
-//        for(int i=0;i<nums.length;++i){
-//            System.out.print(arr202[i]+" ,");
-//        }
+        for(int i=0;i<nums.length;++i){
+            System.out.print(arr202[i]+" ,");
+        }
 
 //        System.out.println(nums[index[3]]);
 
