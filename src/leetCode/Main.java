@@ -117,10 +117,12 @@ public class Main {
 //        System.out.println(nums[index[3]]);
 
 
-        String str="hxsdz";
-        Pangram pangram=new Pangram();
-        boolean result=pangram.checkIfPangram(str);
-        System.out.println(result);
+//        String str="hxsdz";
+//        Pangram pangram=new Pangram();
+//        boolean result=pangram.checkIfPangram(str);
+//        System.out.println(result);
+
+
 
 
 
