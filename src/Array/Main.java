@@ -19,7 +19,7 @@ public class Main {
 //        System.out.print(Arrays.toString(arr));
 
         // Array of an Objects;
-
+        // Since String is a non-primitive type,we can use it for the array objects
         String[] str=new String[4];
 
         for(int i=0;i<str.length;++i){
