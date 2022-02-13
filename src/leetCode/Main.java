@@ -114,7 +114,7 @@ public class Main {
 //            System.out.print(arr202[i]+" ,");
 //        }
 
-        System.out.println(nums[index[3]]);
+//        System.out.println(nums[index[3]]);
 
 
 
