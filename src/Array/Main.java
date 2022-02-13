@@ -28,6 +28,16 @@ public class Main {
 
         System.out.println(Arrays.toString(str));
 
+        // Multidimensional array(2D Array)---->>>
+
+        int[][] arr2d={
+                {1,2,3},
+                {9,10},
+                {7,6,5}
+        };
+
+
+
 
     }
 }
