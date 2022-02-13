@@ -79,7 +79,7 @@ public class Main {
 //            System.out.println(index);
 //        }
 
-            int[] arr={8,1,2,2,3};
+//            int[] arr={8,1,2,2,3};
 //        SplitArray splitArray=new SplitArray();
 //
 //        int sumExpected= splitArray.findMaxSumofSplitArray(arr,2);
@@ -101,9 +101,18 @@ public class Main {
 //        System.out.println(pairs);
 
 
-        SmallArray smallArray=new SmallArray();
-        int[] res=smallArray.smallerNumbersThanCurrent(arr);
-        System.out.println(res[0]+" "+res[2]);
+//        SmallArray smallArray=new SmallArray();
+//        int[] res=smallArray.smallerNumbersThanCurrent(arr);
+//        System.out.println(res[0]+" "+res[2]);
+
+        int[] nums={0,1,2,3,4};
+        int[] index={0,1,2,2,1};
+
+        TargetArray targetArray=new TargetArray();
+        int[] arr202= targetArray.createTargetArray(nums,index);
+//        for(int i=0;i<nums.length;++i){
+//            System.out.print(arr202[i]+" ,");
+//        }
 
 
 
