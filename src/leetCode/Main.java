@@ -105,17 +105,22 @@ public class Main {
 //        int[] res=smallArray.smallerNumbersThanCurrent(arr);
 //        System.out.println(res[0]+" "+res[2]);
 
-        int[] nums={0,1,2,3,4};
-        int[] index={0,1,2,2,1};
-
-        TargetArray targetArray=new TargetArray();
-        int[] arr202= targetArray.createTargetArray(nums,index);
-        for(int i=0;i<nums.length;++i){
-            System.out.print(arr202[i]+" ,");
-        }
+//        int[] nums={0,1,2,3,4};
+//        int[] index={0,1,2,2,1};
+//
+//        TargetArray targetArray=new TargetArray();
+//        int[] arr202= targetArray.createTargetArray(nums,index);
+//        for(int i=0;i<nums.length;++i){
+//            System.out.print(arr202[i]+" ,");
+//        }
 
 //        System.out.println(nums[index[3]]);
 
+
+        String str="hxsdz";
+        Pangram pangram=new Pangram();
+        boolean result=pangram.checkIfPangram(str);
+        System.out.println(result);
 
 
 
