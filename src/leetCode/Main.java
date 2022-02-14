@@ -120,16 +120,20 @@ public class Main {
 //        System.out.println(result);
 
 
-        List<List<String>> lists= new ArrayList<List<String>>();
+//        List<List<String>> lists= new ArrayList<List<String>>();
+//
+//        lists.add(List.of(new String[]{"phone", "blue", "pixel"}));
+//        lists.add(List.of(new String[]{"computer", "silver", "lenovo"}));
+//        lists.add(List.of(new String[]{"phone","gold","iphone"}));
+//
+//        MatchingItem matchingItem=new MatchingItem();
+//        int result=matchingItem.countMatches(lists,"name","pixel");
+//
+//        System.out.print(result);
 
-        lists.add(List.of(new String[]{"phone", "blue", "pixel"}));
-        lists.add(List.of(new String[]{"computer", "silver", "lenovo"}));
-        lists.add(List.of(new String[]{"phone","gold","iphone"}));
-
-        MatchingItem matchingItem=new MatchingItem();
-        int result=matchingItem.countMatches(lists,"name","pixel");
-
-        System.out.print(result);
+        int[] gain={-5,1,5,0,-7};
+        HighestAltitude highestAltitude=new HighestAltitude();
+        int high=highestAltitude.largestAltitude(gain);
 
 
 
