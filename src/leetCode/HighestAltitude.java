@@ -11,14 +11,14 @@ public class HighestAltitude {
         int b=0;
 
         for(int i=1;i<gain.length;i++){
-            b=gain[i]+gain[i-1];
+            b=gain[i]+arr[i];
             arr[i+1]=b;
 
 
         }
 
-        System.out.println(Arrays.toString(arr));
-        int highest=gain[0];
+
+        int highest=arr[0];
         for(int i=1;i<arr.length;i++){
             if(arr[i]>highest){
                 highest=arr[i];
