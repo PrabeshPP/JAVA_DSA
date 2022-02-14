@@ -7,17 +7,17 @@ public class HighestAltitude {
         int[] arr=new int[gain.length+1];
         arr[0]=0;
         arr[1]=gain[0];
-        System.out.println(gain[1]);
+
         int b=0;
 
-        for(int i=2;i<arr.length;i++){
-            if(i<= gain.length){
+        for(int i=1;i<gain.length;i++){
+            b=gain[i]+gain[i-1];
+            arr[i+1]=b;
 
-            }
 
         }
 
-
+        System.out.println(Arrays.toString(arr));
         int highest=gain[0];
         for(int i=1;i<arr.length;i++){
             if(arr[i]>highest){
