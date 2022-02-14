@@ -134,6 +134,7 @@ public class Main {
         int[] gain={-5,1,5,0,-7};
         HighestAltitude highestAltitude=new HighestAltitude();
         int high=highestAltitude.largestAltitude(gain);
+        System.out.println(high);
 
 
 
