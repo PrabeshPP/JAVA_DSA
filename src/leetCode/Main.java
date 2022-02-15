@@ -137,17 +137,23 @@ public class Main {
 //        System.out.println(high);
 
         int[][] image={
-                {1,1,0},
+                {1,1,0,0},
 
-                {1,0,1},
-                {0,0,0}
+                {1,0,0,1},
+                {0,1,1,1},
+                {1,0,1,0}
         };
 
         FlipImage flipImage=new FlipImage();
 
         int[][] newarr=flipImage.flipAndInvertImage(image);
 
-      System.out.println(newarr[0][2]);
+      for(int i=0;i<newarr.length;i++){
+          for(int j=0;j< newarr.length;j++){
+              System.out.print(newarr[i][j]+",");
+          }
+          System.out.println(" ");
+      }
 
 
 
