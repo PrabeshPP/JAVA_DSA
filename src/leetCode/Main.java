@@ -131,10 +131,23 @@ public class Main {
 //
 //        System.out.print(result);
 
-        int[] gain={-5,1,5,0,-7};
-        HighestAltitude highestAltitude=new HighestAltitude();
-        int high=highestAltitude.largestAltitude(gain);
-        System.out.println(high);
+//        int[] gain={-5,1,5,0,-7};
+//        HighestAltitude highestAltitude=new HighestAltitude();
+//        int high=highestAltitude.largestAltitude(gain);
+//        System.out.println(high);
+
+        int[][] image={
+                {1,1,0},
+
+                {1,0,1},
+                {0,0,0}
+        };
+
+        FlipImage flipImage=new FlipImage();
+
+        int[][] newarr=flipImage.flipAndInvertImage(image);
+
+      System.out.println(newarr[0][2]);
 
 
 
