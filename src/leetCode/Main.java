@@ -137,11 +137,11 @@ public class Main {
 //        System.out.println(high);
 
         int[][] image={
-                {1,1,0,0},
+                {1,1,0},
 
-                {1,0,0,1},
-                {0,1,1,1},
-                {1,0,1,0}
+                {1,0,1},
+                {0,0,0},
+
         };
 
         FlipImage flipImage=new FlipImage();
