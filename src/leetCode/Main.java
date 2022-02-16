@@ -1,5 +1,6 @@
 package leetCode;
 
+import java.sql.Array;
 import java.util.*;
 
 public class Main {
@@ -179,22 +180,26 @@ public class Main {
 //    System.out.println(counter);
 
 
-        int[][] arr={
-                {1,2,3},
-                {4,5,6},
+//        int[][] arr={
+//                {1,2,3},
+//                {4,5,6},
+//
+//        };
+//
+//        TransposeMatrix transposeMatrix=new TransposeMatrix();
+//        int[][] newArr=transposeMatrix.transpose(arr);
+//
+//        for(int i=0;i<newArr.length;i++){
+//            for(int j=0;j< newArr[0].length;j++){
+//                System.out.print(newArr[i][j]+",");
+//
+//            }
+//            System.out.println(" ");
+//        }
 
-        };
-
-        TransposeMatrix transposeMatrix=new TransposeMatrix();
-        int[][] newArr=transposeMatrix.transpose(arr);
-
-        for(int i=0;i<newArr.length;i++){
-            for(int j=0;j< newArr[0].length;j++){
-                System.out.print(newArr[i][j]+",");
-
-            }
-            System.out.println(" ");
-        }
+        int[] arr={1,2,0,0};
+        ArrayToInteger arrayToInteger=new ArrayToInteger();
+        List<Integer> list=arrayToInteger.addToArrayForm(arr,34);
 
         }
 
