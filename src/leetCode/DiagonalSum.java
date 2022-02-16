@@ -9,9 +9,11 @@ public class DiagonalSum {
             sum+=value;
         }
 
+
+
         if(mat.length %2==0){
             for(int i=0;i<mat.length;i++){
-                int value=mat[mat.length-1-i][mat.length-1-i];
+                int value=mat[i][mat.length-1-i];
                 sum+=value;
             }
 
@@ -21,11 +23,13 @@ public class DiagonalSum {
                     continue;
 
                 }
-                int value=mat[mat.length-1-i][mat.length-1-i];
+                int value=mat[i][mat.length-1-i];
                 sum+=value;
 
             }
         }
+
+
 
 
 
