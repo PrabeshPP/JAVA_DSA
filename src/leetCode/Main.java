@@ -136,35 +136,43 @@ public class Main {
 //        int high=highestAltitude.largestAltitude(gain);
 //        System.out.println(high);
 
-        int[][] image={
-                {1,1,0},
+//        int[][] image={
+//                {1,1,0},
+//
+//                {1,0,1},
+//                {0,0,0},
+//
+//        };
 
-                {1,0,1},
-                {0,0,0},
+//        FlipImage flipImage=new FlipImage();
+//
+//        int[][] newarr=flipImage.flipAndInvertImage(image);
+//
+//      for(int i=0;i<newarr.length;i++){
+//          for(int j=0;j< newarr.length;j++){
+//              System.out.print(newarr[i][j]+",");
+//          }
+//          System.out.println(" ");
+//      }
 
+
+        //Diagonal Sum
+
+        int[][] arr={
+                {1,2,3},
+                {4,5,6},
+                {7,8,9}
         };
 
-        FlipImage flipImage=new FlipImage();
 
-        int[][] newarr=flipImage.flipAndInvertImage(image);
+        DiagonalSum diagonalSum=new DiagonalSum();
 
-      for(int i=0;i<newarr.length;i++){
-          for(int j=0;j< newarr.length;j++){
-              System.out.print(newarr[i][j]+",");
-          }
-          System.out.println(" ");
-      }
-
-
+        int result=diagonalSum.diagonalSum(arr);
+        System.out.println(result);
 
 
 
 
         }
-
-
-
-
-
 
 }
