@@ -189,7 +189,7 @@ public class Main {
         int[][] newArr=transposeMatrix.transpose(arr);
 
         for(int i=0;i<newArr.length;i++){
-            for(int j=0;j< newArr.length;j++){
+            for(int j=0;j< newArr[0].length;j++){
                 System.out.print(newArr[i][j]+",");
 
             }
