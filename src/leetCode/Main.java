@@ -173,10 +173,28 @@ public class Main {
 //        System.out.println(result);
 
 
-        int[] nums={555,901,482,1771};
-    EvenNumberDigits evenNumberDigits=new EvenNumberDigits();
-    int counter=evenNumberDigits.findNumbers(nums);
-    System.out.println(counter);
+//        int[] nums={555,901,482,1771};
+//    EvenNumberDigits evenNumberDigits=new EvenNumberDigits();
+//    int counter=evenNumberDigits.findNumbers(nums);
+//    System.out.println(counter);
+
+
+        int[][] arr={
+                {1,2,3},
+                {4,5,6},
+
+        };
+
+        TransposeMatrix transposeMatrix=new TransposeMatrix();
+        int[][] newArr=transposeMatrix.transpose(arr);
+
+        for(int i=0;i<newArr.length;i++){
+            for(int j=0;j< newArr.length;j++){
+                System.out.print(newArr[i][j]+",");
+
+            }
+            System.out.println(" ");
+        }
 
         }
 
