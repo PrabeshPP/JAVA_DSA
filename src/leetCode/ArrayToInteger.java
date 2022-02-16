@@ -10,6 +10,9 @@ public class ArrayToInteger {
         for(int i=0;i<num.length;i++){
            stno+=String.valueOf(num[i]);
         }
+        int number=Integer.parseInt(stno);
+        int total=number+k;
+        System.out.println(total);
 
 
 
