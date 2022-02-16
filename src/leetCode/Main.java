@@ -158,19 +158,19 @@ public class Main {
 
         //Diagonal Sum
 
-        int[][] arr={
-                {7,3,1,9},
-                {3,4,6,9},
-                {6,9,6,6},
-                {9,5,8,5}
-
-        };
-
-
-        DiagonalSum diagonalSum=new DiagonalSum();
-
-        int result=diagonalSum.diagonalSum(arr);
-        System.out.println(result);
+//        int[][] arr={
+//                {7,3,1,9},
+//                {3,4,6,9},
+//                {6,9,6,6},
+//                {9,5,8,5}
+//
+//        };
+//
+//
+//        DiagonalSum diagonalSum=new DiagonalSum();
+//
+//        int result=diagonalSum.diagonalSum(arr);
+//        System.out.println(result);
 
 
 
