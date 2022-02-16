@@ -1,6 +1,7 @@
 package leetCode;
 
 public class DiagonalSum {
+    //Completed
     public int diagonalSum(int[][] mat) {
         int sum=0;
         //First diagonal Sum
