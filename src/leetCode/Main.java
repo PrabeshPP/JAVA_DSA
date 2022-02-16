@@ -197,9 +197,9 @@ public class Main {
 //            System.out.println(" ");
 //        }
 
-        int[] arr={2,7,4};
+        int[] arr={2,1,5};
         ArrayToInteger arrayToInteger=new ArrayToInteger();
-        List<Integer> list=arrayToInteger.addToArrayForm(arr,181);
+        List<Integer> list=arrayToInteger.addToArrayForm(arr,806);
         System.out.println(Arrays.toString(list.toArray()));
 
         }
