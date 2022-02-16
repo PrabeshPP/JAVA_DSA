@@ -11,8 +11,15 @@ public class ArrayToInteger {
            stno+=String.valueOf(num[i]);
         }
         int number=Integer.parseInt(stno);
-        int total=number+k;
-        System.out.println(total);
+
+        Integer total=number+k;
+        String strTotal=total.toString();
+
+        for(int i=0;i<strTotal.length();i++){
+            list.add(Integer.parseInt(String.valueOf(strTotal.charAt(i))));
+
+        }
+
 
 
 
