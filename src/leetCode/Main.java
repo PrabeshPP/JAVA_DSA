@@ -203,18 +203,32 @@ public class Main {
 //        System.out.println(Arrays.toString(list.toArray()));
 
 
-        int[][] arr303={
-                {1982,1998},
-                {2013,2042},
-                {2010,2035},
-                {2022,2050},
-                {2047,2048}
+//        int[][] arr303={
+//                {1982,1998},
+//                {2013,2042},
+//                {2010,2035},
+//                {2022,2050},
+//                {2047,2048}
+//
+//
+//        };
+//    MaxPopYear maxPopYear=new MaxPopYear();
+//    int year=maxPopYear.maximumPopulation(arr303);
+//    System.out.println(year);
 
-
+        int[][] arrRot={
+                {0,1},
+                {1,1}
         };
-    MaxPopYear maxPopYear=new MaxPopYear();
-    int year=maxPopYear.maximumPopulation(arr303);
-    System.out.println(year);
+
+        int[][] target={
+                {1,0},
+                {0,1}
+        };
+
+
+        FindRotation findRotation=new FindRotation();
+         boolean result=findRotation.findRotation(arrRot,target);
 
 
     }
