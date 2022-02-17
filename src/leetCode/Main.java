@@ -204,7 +204,12 @@ public class Main {
 
 
         int[][] arr303={
-                {1950,1961},
+                {1982,1998},
+                {2013,2042},
+                {2010,2035},
+                {2022,2050},
+                {2047,2048}
+
 
         };
     MaxPopYear maxPopYear=new MaxPopYear();

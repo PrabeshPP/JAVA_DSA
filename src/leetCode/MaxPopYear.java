@@ -13,14 +13,19 @@ public class MaxPopYear {
             arr[birthIndex]++;
             arr[deathIndex]--;
         }
+
         int maxValue=arr[0];
+        int maxYear=1950;
         for(int i=1;i<101;i++){
             arr[i]+=arr[i-1];
             if(arr[i]>maxValue){
                 maxValue=arr[i];
+                maxYear=1950+i;
             }
 
         }
+
+        return maxYear;
 
     }
 }
