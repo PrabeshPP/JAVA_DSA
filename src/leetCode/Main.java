@@ -217,8 +217,9 @@ public class Main {
 //    System.out.println(year);
 
         int[][] arrRot={
-                {0,1},
-                {1,1}
+                {0,0,0},
+                {0,1,0},
+                {1,1,1}
         };
 
         int[][] target={
