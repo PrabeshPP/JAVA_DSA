@@ -7,7 +7,6 @@ public class FindRotation {
         boolean result=false;
         int maxRotate=4;
 
-        int[][] arr1=rotate(mat);
 
 
 
@@ -25,5 +24,16 @@ public class FindRotation {
             }
         }
         return  newArr;
+    }
+
+    public boolean check(int[][] arr,int[][] target){
+        for(int i=0;i<arr.length;i++){
+            for(int j=0;j<arr.length;j++){
+                if(arr[i][j]!=target[i][j]){
+                    return false;
+                }
+            }
+        }
+        return true;
     }
 }
