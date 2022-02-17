@@ -10,10 +10,7 @@ public class FindRotation {
         for(int i=0;i<mat.length;i++){
                 for(int j=0;j<mat.length;j++){
                     newArr[j][mat.length-1-i]=mat[i][j];
-
                 }
-
-
             }
 
         int[][] newArr1=new int[mat.length][mat.length];
