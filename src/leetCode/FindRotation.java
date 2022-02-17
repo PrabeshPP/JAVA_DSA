@@ -5,19 +5,25 @@ import java.util.Arrays;
 public class FindRotation {
     public boolean findRotation(int[][] mat, int[][] target) {
         boolean result=false;
-        int[][] newArr=new int[mat.length][mat.length];
+        int maxRotate=4;
 
-        int maxRotate=mat.length;
+        int[][] arr1=rotate(mat);
 
-        for(int i=0;i<mat.length;i++){
-                for(int j=0;j<mat.length;j++){
-                    newArr[j][mat.length-1-i]=mat[i][j];
-                }
-            }
+
 
 
 
 
         return result;
+    }
+
+    public int[][] rotate(int[][] arr){
+        int[][] newArr=new int[arr.length][arr.length];
+        for(int i=0;i<arr.length;i++){
+            for(int j=0;j<arr.length;j++){
+                newArr[j][arr.length-1-i]=arr[i][j];
+            }
+        }
+        return  newArr;
     }
 }
