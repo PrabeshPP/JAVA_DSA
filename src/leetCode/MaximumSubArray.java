@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class MaximumSubArray {
     public int maxSubArray(int[] nums) {
         //Kadane's Algorithm should be used
-
+        //
         int maxSum=Integer.MIN_VALUE;
 
         int currSum=0;
