@@ -5,8 +5,16 @@ public class MaximumSubArray {
         //Kadane's Algorithm should be used
 
         int maxSum=0;
+        int currSum=0;
         for(int i=0;i<nums.length;i++){
-            maxSum+=nums[i];
+            currSum=currSum+nums[i];
+            if(currSum>maxSum){
+                maxSum=currSum;
+            }
+
+            if(currSum<0){
+                currSum=0;
+            }
         }
 
 
