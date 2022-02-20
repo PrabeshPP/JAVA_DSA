@@ -1,23 +1,26 @@
 package leetCode;
 
+import java.sql.Array;
+import java.util.ArrayList;
+
 public class SumZero {
     public int[] sumZero(int n) {
-        int[] arr=new int[n];
+        ArrayList<Integer> arr=new ArrayList<Integer>(n);
 
-        for(int i=1;i<=n/2;i++){
-            if(i==1){
-                arr[i-1]=i;
-                arr[i]=-i;
-            }else{
-                arr[i]=i;
-                arr[i+1]=-i;
-            }
+        for(int i=0;i<n/2;i++){
+           arr.add(i+1);
+           arr.add(-(i+1));
         }
 
         if(n%2!=0){
-          arr[n-1]=0;
+          arr.add(0);
+        }
+        int[] list=new int[n];
+        for(int i=0;i<arr.size();i++){
+            list[i]=arr.get(i);
+
         }
 
-        return arr;
+       return  list;
     }
 }

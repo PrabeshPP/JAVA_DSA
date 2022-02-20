@@ -233,7 +233,7 @@ public class Main {
 
         SumZero sumZero=new SumZero();
 
-        int[] arr= sumZero.sumZero(6);
+        int[] arr= sumZero.sumZero(5);
 
         System.out.println(Arrays.toString(arr));
 
