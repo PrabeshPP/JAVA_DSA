@@ -231,11 +231,20 @@ public class Main {
 //        FindRotation findRotation=new FindRotation();
 //         boolean result=findRotation.findRotation(arrRot,target);
 
-        SumZero sumZero=new SumZero();
-
-        int[] arr= sumZero.sumZero(5);
-
-        System.out.println(Arrays.toString(arr));
+//        SumZero sumZero=new SumZero();
+//
+//        int[] arr= sumZero.sumZero(5);
+//
+//        System.out.println(Arrays.toString(arr));
+        int[][] matrix={
+                {3,6},
+                {7,1},
+                {5,2},
+                {4,8}
+        };
+        LuckyNumber luckyNumber=new LuckyNumber();
+        List<Integer> li=luckyNumber.luckyNumbers(matrix);
+//        System.out.println(li.get(0));
 
 
     }
