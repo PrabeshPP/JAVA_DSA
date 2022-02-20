@@ -236,15 +236,22 @@ public class Main {
 //        int[] arr= sumZero.sumZero(5);
 //
 //        System.out.println(Arrays.toString(arr));
-        int[][] matrix={
-                {3,6},
-                {7,1},
-                {5,2},
-                {4,8}
+//        int[][] matrix={
+//                {3,6},
+//                {7,1},
+//                {5,2},
+//                {4,8}
+//        };
+//        LuckyNumber luckyNumber=new LuckyNumber();
+//        List<Integer> li=luckyNumber.luckyNumbers(matrix);
+////        System.out.println(li.get(0));
+
+        int[] nums={
+            -2,1,-3,4,-1,2,1,-5,4
         };
-        LuckyNumber luckyNumber=new LuckyNumber();
-        List<Integer> li=luckyNumber.luckyNumbers(matrix);
-//        System.out.println(li.get(0));
+        MaximumSubArray maximumSubArray=new MaximumSubArray();
+        int sum=maximumSubArray.maxSubArray(nums);
+        System.out.println(sum);
 
 
     }
