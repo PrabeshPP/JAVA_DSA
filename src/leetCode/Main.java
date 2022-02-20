@@ -247,7 +247,7 @@ public class Main {
 ////        System.out.println(li.get(0));
 
         int[] nums={
-            -1,-2,1
+            -2,-1,
         };
         MaximumSubArray maximumSubArray=new MaximumSubArray();
         int sum=maximumSubArray.maxSubArray(nums);
