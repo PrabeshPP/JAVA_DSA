@@ -216,20 +216,26 @@ public class Main {
 //    int year=maxPopYear.maximumPopulation(arr303);
 //    System.out.println(year);
 
-        int[][] arrRot={
-                {0,0,0},
-                {0,1,0},
-                {1,1,1}
-        };
+//        int[][] arrRot={
+//                {0,0,0},
+//                {0,1,0},
+//                {1,1,1}
+//        };
+//
+//        int[][] target={
+//                {1,0},
+//                {0,1}
+//        };
+//
+//
+//        FindRotation findRotation=new FindRotation();
+//         boolean result=findRotation.findRotation(arrRot,target);
 
-        int[][] target={
-                {1,0},
-                {0,1}
-        };
+        SumZero sumZero=new SumZero();
 
+        int[] arr= sumZero.sumZero(6);
 
-        FindRotation findRotation=new FindRotation();
-         boolean result=findRotation.findRotation(arrRot,target);
+        System.out.println(Arrays.toString(arr));
 
 
     }
