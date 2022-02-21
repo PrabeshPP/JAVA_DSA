@@ -246,16 +246,21 @@ public class Main {
 //        List<Integer> li=luckyNumber.luckyNumbers(matrix);
 ////        System.out.println(li.get(0));
 
-        int[][] nums={
-                {1,2},
+//        int[][] nums={
+//                {1,2},
+//
+//        };
+//
+//        ReshapeMatrix reshapeMatrix=new ReshapeMatrix();
+//        int[][] matrix=reshapeMatrix.matrixReshape(nums,1,1);
+//        for(int[] row:matrix){
+//            System.out.println(Arrays.toString(row));
+//        }
 
-        };
-
-        ReshapeMatrix reshapeMatrix=new ReshapeMatrix();
-        int[][] matrix=reshapeMatrix.matrixReshape(nums,1,1);
-        for(int[] row:matrix){
-            System.out.println(Arrays.toString(row));
-        }
+        int[] num={9,9,9,9};
+        PlusOne plusOne=new PlusOne();
+        int[] arr=plusOne.plusOne(num);
+        System.out.println(Arrays.toString(arr));
 
 
     }
