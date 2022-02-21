@@ -246,12 +246,16 @@ public class Main {
 //        List<Integer> li=luckyNumber.luckyNumbers(matrix);
 ////        System.out.println(li.get(0));
 
-        int[] nums={
-            -2,-1,
+        int[][] nums={
+                {1,2},
+                {3,4}
         };
-        MaximumSubArray maximumSubArray=new MaximumSubArray();
-        int sum=maximumSubArray.maxSubArray(nums);
-        System.out.println(sum);
+
+        ReshapeMatrix reshapeMatrix=new ReshapeMatrix();
+        int[][] matrix=reshapeMatrix.matrixReshape(nums,1,4);
+        for(int[] row:matrix){
+            System.out.println(Arrays.toString(row));
+        }
 
 
     }
