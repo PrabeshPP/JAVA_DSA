@@ -248,11 +248,11 @@ public class Main {
 
         int[][] nums={
                 {1,2},
-                {3,4}
+
         };
 
         ReshapeMatrix reshapeMatrix=new ReshapeMatrix();
-        int[][] matrix=reshapeMatrix.matrixReshape(nums,1,4);
+        int[][] matrix=reshapeMatrix.matrixReshape(nums,1,1);
         for(int[] row:matrix){
             System.out.println(Arrays.toString(row));
         }
