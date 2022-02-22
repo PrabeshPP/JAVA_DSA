@@ -23,8 +23,8 @@ public class SpiralMatrix {
                 top++;
             }else if(direction==1){
                 for(int i=top;i<=down;i++){
-//                    list.add(matrix[i][right]);
-                    System.out.print(matrix[i][right]+",");
+                    list.add(matrix[i][right]);
+
 
                 }
                 right--;
