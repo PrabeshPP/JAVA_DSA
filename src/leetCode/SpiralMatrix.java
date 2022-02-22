@@ -30,9 +30,9 @@ public class SpiralMatrix {
                 right--;
             }else if(direction==2){
                 for(int i=right;i>=left;i--){
-//                    list.add((matrix[down][i]));
+                    list.add((matrix[down][i]));
 
-                    System.out.print(matrix[down][i]+",");
+
 
                 }
                 down--;
