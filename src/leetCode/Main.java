@@ -277,7 +277,7 @@ public class Main {
         };
         SpiralMatrix spiralMatrix=new SpiralMatrix();
         List<Integer> list=spiralMatrix.spiralOrder(arr);
-        System.out.print(Arrays.toString(list.toArray()));
+//        System.out.print(Arrays.toString(list.toArray()));
     }
 
 }
