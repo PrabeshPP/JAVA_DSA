@@ -7,7 +7,7 @@ public class SpiralMatrix {
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> list=new ArrayList<Integer>();
         // We should use for pointers inorder to traverse in 2-D array in a spiral way.
-        int top=0,down=matrix[0].length-1,left=0,right=matrix[0].length-1;
+        int top=0,down=matrix.length-1,left=0,right=matrix[0].length-1;
         int direction=0;
         // if direction is 0 go from left to right
         // if  direction is 1 go from top to down
@@ -29,9 +29,6 @@ public class SpiralMatrix {
             }else if(direction==2){
                 for(int i=right;i>=left;i--){
                     list.add((matrix[down][i]));
-
-
-
                 }
                 down--;
             }else if(direction==3){
