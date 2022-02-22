@@ -257,7 +257,7 @@ public class Main {
 //            System.out.println(Arrays.toString(row));
 //        }
 
-        int[] num={1,2,2,2,2};
+//        int[] num={1,2,2,2,2};
 //        PlusOne plusOne=new PlusOne();
 //        int[] arr=plusOne.plusOne(num);
 //        System.out.println(Arrays.toString(arr));
@@ -265,11 +265,19 @@ public class Main {
 //        DuplicatesArray duplicatesArray=new DuplicatesArray();
 //        int len=duplicatesArray.removeDuplicates(num);
 
-        MinimumChips minimumChips=new MinimumChips();
-        int cost=minimumChips.minCostToMoveChips(num);
+//        MinimumChips minimumChips=new MinimumChips();
+//        int cost=minimumChips.minCostToMoveChips(num);
+//
+//        System.out.println(cost);
 
-        System.out.println(cost);
-
+        int[][] arr={
+                {1,2,3},
+                {4,5,6},
+                {7,8,9}
+        };
+        SpiralMatrix spiralMatrix=new SpiralMatrix();
+        List<Integer> list=spiralMatrix.spiralOrder(arr);
+        System.out.print(Arrays.toString(list.toArray()));
     }
 
 }
