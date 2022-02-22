@@ -39,7 +39,6 @@ public class SpiralMatrix {
             }else if(direction==3){
                 for(int i=down;i<=top;i++){
                     list.add(matrix[i][left]);
-
                 }
                 left++;
             }
