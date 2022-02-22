@@ -38,8 +38,8 @@ public class SpiralMatrix {
                 down--;
             }else if(direction==3){
                 for(int i=down;i<=top;i++){
-//                    list.add(matrix[i][left]);
-                    System.out.print(matrix[i][left]+",");
+                    list.add(matrix[i][left]);
+
                 }
                 left++;
             }
