@@ -32,7 +32,7 @@ public class SpiralMatrix {
                 }
                 down--;
             }else if(direction==3){
-                for(int i=down;i<=top;i++){
+                for(int i=down;i>=top;i--){
                     list.add(matrix[i][left]);
                 }
                 left++;
