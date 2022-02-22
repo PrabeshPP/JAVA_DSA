@@ -257,15 +257,18 @@ public class Main {
 //            System.out.println(Arrays.toString(row));
 //        }
 
-        int[] num={1,1,2};
+        int[] num={1,2,3};
 //        PlusOne plusOne=new PlusOne();
 //        int[] arr=plusOne.plusOne(num);
 //        System.out.println(Arrays.toString(arr));
 
-        DuplicatesArray duplicatesArray=new DuplicatesArray();
-        int len=duplicatesArray.removeDuplicates(num);
+//        DuplicatesArray duplicatesArray=new DuplicatesArray();
+//        int len=duplicatesArray.removeDuplicates(num);
 
-        System.out.println(len);
+        MinimumChips minimumChips=new MinimumChips();
+        int cost=minimumChips.minCostToMoveChips(num);
+
+        System.out.println(cost);
 
     }
 
