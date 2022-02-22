@@ -24,8 +24,6 @@ public class SpiralMatrix {
             }else if(direction==1){
                 for(int i=top;i<=down;i++){
                     list.add(matrix[i][right]);
-
-
                 }
                 right--;
             }else if(direction==2){
