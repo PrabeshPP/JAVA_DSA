@@ -257,11 +257,15 @@ public class Main {
 //            System.out.println(Arrays.toString(row));
 //        }
 
-        int[] num={9,9,9,9};
-        PlusOne plusOne=new PlusOne();
-        int[] arr=plusOne.plusOne(num);
-        System.out.println(Arrays.toString(arr));
+        int[] num={1,1,2};
+//        PlusOne plusOne=new PlusOne();
+//        int[] arr=plusOne.plusOne(num);
+//        System.out.println(Arrays.toString(arr));
 
+        DuplicatesArray duplicatesArray=new DuplicatesArray();
+        int len=duplicatesArray.removeDuplicates(num);
+
+        System.out.println(len);
 
     }
 

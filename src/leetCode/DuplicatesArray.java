@@ -13,7 +13,7 @@ public class DuplicatesArray {
         }
 
         for(int i=0;i<nums.length;i++){
-            if(i!=-101){
+            if(nums[i]!=-101){
                 len++;
             }
         }
