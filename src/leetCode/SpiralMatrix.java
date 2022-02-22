@@ -11,6 +11,14 @@ public class SpiralMatrix {
         int row=0;
         int col=0;
         while(i<totalElem){
+            if(col==matrix[i].length-1){
+               row++;
+            } else if(row== matrix.length-1){
+                col--;
+            }else if(row<0&& col==0){
+                col--;
+            }
+            list.add(row,col);
 
 
 
