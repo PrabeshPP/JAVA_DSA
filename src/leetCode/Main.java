@@ -257,7 +257,7 @@ public class Main {
 //            System.out.println(Arrays.toString(row));
 //        }
 
-        int[] num={1,1,2};
+        int[] num={0,0,1,1,1,2,2,3,3,4};
 //        PlusOne plusOne=new PlusOne();
 //        int[] arr=plusOne.plusOne(num);
 //        System.out.println(Arrays.toString(arr));
