@@ -270,15 +270,16 @@ public class Main {
 //
 //        System.out.println(cost);
 
-        int[][] arr={
-                {1,2,3,4},
-                {5,6,7,8},
-                {9,10,11,12},
-                {13,14,15,16}
-        };
-        SpiralMatrix spiralMatrix=new SpiralMatrix();
-        List<Integer> list=spiralMatrix.spiralOrder(arr);
-        System.out.print(Arrays.toString(list.toArray()));
+//        int[][] arr={
+//                {1,2,3,4},
+//                {5,6,7,8},
+//                {9,10,11,12},
+//                {13,14,15,16}
+//        };
+//        SpiralMatrix spiralMatrix=new SpiralMatrix();
+//        List<Integer> list=spiralMatrix.spiralOrder(arr);
+//        System.out.print(Arrays.toString(list.toArray()));
+
     }
 
 }
