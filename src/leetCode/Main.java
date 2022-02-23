@@ -280,6 +280,12 @@ public class Main {
 //        List<Integer> list=spiralMatrix.spiralOrder(arr);
 //        System.out.print(Arrays.toString(list.toArray()));
 
+
+            SpiralMatrixII spiralMatrixII=new SpiralMatrixII();
+            int[][] matrix=spiralMatrixII.generateMatrix(3);
+            for(int[] arr:matrix){
+                System.out.println(Arrays.toString(arr));
+            }
     }
 
 }
