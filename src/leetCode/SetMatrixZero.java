@@ -10,7 +10,7 @@ public class SetMatrixZero {
             for(int j=0;j<matrix[0].length;j++){
                 if(matrix[i][j]==0){
                     row[i]=1;
-                    col[i]=1;
+                    col[j]=1;
 
                 }
             }
