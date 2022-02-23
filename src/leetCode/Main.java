@@ -281,11 +281,19 @@ public class Main {
 //        System.out.print(Arrays.toString(list.toArray()));
 
 
-            SpiralMatrixII spiralMatrixII=new SpiralMatrixII();
-            int[][] matrix=spiralMatrixII.generateMatrix(4);
-            for(int[] arr:matrix){
-                System.out.println(Arrays.toString(arr));
-            }
+//            SpiralMatrixII spiralMatrixII=new SpiralMatrixII();
+//            int[][] matrix=spiralMatrixII.generateMatrix(4);
+//            for(int[] arr:matrix){
+//                System.out.println(Arrays.toString(arr));
+//            }
+
+        SetMatrixZero setMatrixZero=new SetMatrixZero();
+        int[][] arr={
+                {0,1,2,0},
+                {3,4,5,2},
+                {1,3,1,5}
+        };
+        setMatrixZero.setZeroes(arr);
     }
 
 }
