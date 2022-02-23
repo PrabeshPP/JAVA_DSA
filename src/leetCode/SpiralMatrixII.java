@@ -6,7 +6,7 @@ public class SpiralMatrixII {
         int top=0,down=n-1,left=0,right=n-1;
         int direction=0;
         int num=1;
-        while(top<=down && left<=right && num<=9 ){
+        while(top<=down && left<=right ){
             if(direction==0){
                 for(int i=left;i<=right;i++){
                     matrix[top][i]=num;
