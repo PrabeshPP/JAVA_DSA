@@ -6,40 +6,45 @@ public class SpiralMatrixII {
         int top=0,down=n-1,left=0,right=n-1;
         int direction=0;
         int num=1;
-        while(top<=down && left<=right){
+        while(top<=down && left<=right && num<=9 ){
             if(direction==0){
                 for(int i=left;i<=right;i++){
                     matrix[top][i]=num;
                     num++;
                 }
-                top--;
+                top++;
             }
-            num++;
+
+
+//
             if(direction==1){
                 for(int i=top;i<=down;i++){
+
                     matrix[i][right]=num;
                     num++;
                 }
                 right--;
             }
-            num++;
+
+//
 
             if(direction==2){
-                for(int i=right;i>=left;i++){
+                for(int i=right;i>=left;i--){
                     matrix[down][i]=num;
                     num++;
                 }
                 down--;
             }
-            num++;
 
-            if(direction==2){
-                for(int i=down;i>=top;i++){
-                    matrix[left][i]=num;
+//
+            if(direction==3){
+                for(int i=down;i>=top;i--){
+                    matrix[i][left]=num;
                     num++;
                 }
                 left++;
             }
+
 
             direction=(direction+1)%4;
         }

@@ -282,7 +282,7 @@ public class Main {
 
 
             SpiralMatrixII spiralMatrixII=new SpiralMatrixII();
-            int[][] matrix=spiralMatrixII.generateMatrix(3);
+            int[][] matrix=spiralMatrixII.generateMatrix(1);
             for(int[] arr:matrix){
                 System.out.println(Arrays.toString(arr));
             }
