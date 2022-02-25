@@ -295,10 +295,15 @@ public class Main {
 //        };
 //        setMatrixZero.setZeroes(arr);
 
-        ProductOfArray productOfArray=new ProductOfArray();
-        int[] arr={-1,1,0,-3,3};
-        int[] result=productOfArray.productExceptSelf(arr);
-        System.out.println(Arrays.toString(result));
+//        ProductOfArray productOfArray=new ProductOfArray();
+//        int[] arr={-1,1,0,-3,3};
+//        int[] result=productOfArray.productExceptSelf(arr);
+//        System.out.println(Arrays.toString(result));
+
+        int[] arr={1,2};
+        JumpGame jumpGame=new JumpGame();
+        boolean result=jumpGame.canJump(arr);
+        System.out.println(result);
     }
 
 }
