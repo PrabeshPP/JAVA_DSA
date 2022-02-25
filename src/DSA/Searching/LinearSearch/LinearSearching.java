@@ -10,9 +10,6 @@ public class LinearSearching {
 
             ++n;
         }
-
-
-
         return -1;
 
 
