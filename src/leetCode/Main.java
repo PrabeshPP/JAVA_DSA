@@ -287,13 +287,18 @@ public class Main {
 //                System.out.println(Arrays.toString(arr));
 //            }
 
-        SetMatrixZero setMatrixZero=new SetMatrixZero();
-        int[][] arr={
-                {0,1,2,0},
-                {3,4,5,2},
-                {1,3,1,5}
-        };
-        setMatrixZero.setZeroes(arr);
+//        SetMatrixZero setMatrixZero=new SetMatrixZero();
+//        int[][] arr={
+//                {0,1,2,0},
+//                {3,4,5,2},
+//                {1,3,1,5}
+//        };
+//        setMatrixZero.setZeroes(arr);
+
+        ProductOfArray productOfArray=new ProductOfArray();
+        int[] arr={-1,1,0,-3,3};
+        int[] result=productOfArray.productExceptSelf(arr);
+        System.out.println(Arrays.toString(result));
     }
 
 }
