@@ -306,9 +306,9 @@ public class Main {
 //        System.out.println(result);
 
 
-        int [] arr={1,2,3,4,5,6,7};
+        int [] arr={-1,-100,3,99};
         RotateArray1 rotateArray1=new RotateArray1();
-        rotateArray1.rotate(arr,7);
+        rotateArray1.rotate(arr,2);
     }
 
 }
