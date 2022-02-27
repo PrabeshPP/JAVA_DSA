@@ -12,7 +12,7 @@ public class RotateArray1 {
             list.add(nums[i] );
         }
 
-
+    k=k%nums.length;
         for(int i=0;i<k;i++){
             list.add(0,list.get(nums.length-1));
         }
