@@ -24,7 +24,7 @@ public class RotateArray1 {
 
         //Soln 2,split the array into two arrays;
 
-
+        k=k%nums.length;
         //reverse Part1
         reverse(nums,0, nums.length-1-k);
         //reverse Part2
