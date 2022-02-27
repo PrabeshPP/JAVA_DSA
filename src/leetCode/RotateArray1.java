@@ -28,10 +28,12 @@ public class RotateArray1 {
         //reverse Part1
         reverse(nums,0, nums.length-1-k);
         //reverse Part2
-        reverse(nums, nums.length-1-k, nums.length-1);
+        reverse(nums, nums.length-k, nums.length-1);
 
         //reverse  All
         reverse(nums,0, nums.length-1);
+
+        System.out.println(Arrays.toString(nums));
 
 
 
