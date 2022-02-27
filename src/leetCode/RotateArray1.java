@@ -14,6 +14,10 @@ public class RotateArray1 {
            newArr[i+k]=nums[i];
 
        }
-       System.out.println(Arrays.toString(newArr));
+
+       for(int i=0;i<nums.length;i++){
+           nums[i]=newArr[i];
+       }
+
     }
 }
