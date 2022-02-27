@@ -306,9 +306,13 @@ public class Main {
 //        System.out.println(result);
 
 
-        int [] arr={-1};
-        RotateArray1 rotateArray1=new RotateArray1();
-        rotateArray1.rotate(arr,2);
+//        int [] arr={-1};
+//        RotateArray1 rotateArray1=new RotateArray1();
+//        rotateArray1.rotate(arr,2);
+
+        int[] arr={2,0,1};
+        SortColors sortColors=new SortColors();
+        sortColors.sortColors(arr);
     }
 
 }
