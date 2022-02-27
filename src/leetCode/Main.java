@@ -299,11 +299,16 @@ public class Main {
 //        int[] arr={-1,1,0,-3,3};
 //        int[] result=productOfArray.productExceptSelf(arr);
 //        System.out.println(Arrays.toString(result));
+//
+//        int[] arr={1,2};
+//        JumpGame jumpGame=new JumpGame();
+//        boolean result=jumpGame.canJump(arr);
+//        System.out.println(result);
 
-        int[] arr={1,2};
-        JumpGame jumpGame=new JumpGame();
-        boolean result=jumpGame.canJump(arr);
-        System.out.println(result);
+
+        int [] arr={1,2,3,4,5,6,7};
+        RotateArray1 rotateArray1=new RotateArray1();
+        rotateArray1.rotate(arr,3);
     }
 
 }
