@@ -6,6 +6,7 @@ import java.util.Arrays;
 
 public class RotateArray1 {
     public void rotate(int[] nums, int k) {
+        //This solution would work but exceeds time limit
         ArrayList<Integer> list=new ArrayList<Integer>();
         for(int i=0;i<nums.length;i++){
             list.add(nums[i] );
