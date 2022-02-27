@@ -308,7 +308,7 @@ public class Main {
 
         int [] arr={-1};
         RotateArray1 rotateArray1=new RotateArray1();
-        rotateArray1.rotate(arr,8);
+        rotateArray1.rotate(arr,2);
     }
 
 }
