@@ -310,9 +310,11 @@ public class Main {
 //        RotateArray1 rotateArray1=new RotateArray1();
 //        rotateArray1.rotate(arr,2);
 
-        int[] arr={2,0,2,1,1,0};
-        SortColors sortColors=new SortColors();
-        sortColors.sortColors(arr);
+        int[] arr={1,2,3,1};
+//        SortColors sortColors=new SortColors();
+//        sortColors.sortColors(arr);
+
+        House
     }
 
 }
