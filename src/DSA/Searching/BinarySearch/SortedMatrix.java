@@ -10,7 +10,7 @@ public class SortedMatrix {
                 {9,10,11,12},
                 {13,14,15,16}
         };
-        int[] pos=searchMatrix(matrix,3);
+        int[] pos=searchMatrix(matrix,16);
         System.out.println(Arrays.toString(pos));
 
     }
@@ -35,17 +35,18 @@ public class SortedMatrix {
         int[] pos=new int[2];
         int rows= matrix.length;
         int column=matrix[0].length;
-        int rStart=0;
-        int rEnd=matrix.length-1;
+
         if(rows==1){
            pos= search(matrix,0,0,2,target);
            return pos;
         }
 
         //Mid-Columns for the matrix
+        int rStart=0;
+        int rEnd=rows-1;
         int midCol=(column-1)/2;
 
-        while (rStart<rEnd){
+        while (rStart<rEnd-1){
             int mid=rStart+(rEnd-rStart)/2;
             if(matrix[mid][midCol]==target){
                 return new int[]{mid,midCol};
@@ -61,6 +62,7 @@ public class SortedMatrix {
 
         // now we have two rows remaining
         //Checking whether is in mid column of two rows
+
         if(matrix[rStart][midCol]==target){
             return new int[]{rStart,midCol};
         }
@@ -77,7 +79,7 @@ public class SortedMatrix {
 
         //Search in 2nd half
         if(target>=matrix[rStart][midCol+1] && target<=matrix[rStart][column-1]){
-           return search(matrix,rStart+1,midCol+1,column-1,target);
+           return search(matrix,rStart,midCol+1,column-1,target);
 
         }
 
