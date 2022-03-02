@@ -50,12 +50,49 @@ public class SortedMatrix {
             if(matrix[mid][midCol]==target){
                 return new int[]{mid,midCol};
             }else if(matrix[mid][midCol]>target){
+                rEnd=mid;
 
             }else{
+                rStart=mid;
 
             }
 
         }
+
+        // now we have two rows remaining
+        //Checking whether is in mid column of two rows
+        if(matrix[rStart][midCol]==target){
+            return new int[]{rStart,midCol};
+        }
+
+        if(matrix[rStart+1][midCol]==target){
+            return new int[]{rStart+1,midCol};
+        }
+
+        //Search in 1st half
+        if(target<=matrix[rStart][midCol-1]){
+          return  search(matrix,rStart,0,midCol-1,target);
+
+        }
+
+        //Search in 2nd half
+        if(target>=matrix[rStart][midCol+1]){
+           return search(matrix,rStart+1,midCol+1,column-1,target);
+
+        }
+
+
+        //search in 3rd half
+        if(target<=matrix[rStart+1][midCol-1]){
+           return  search(matrix,rStart+1,0,midCol-1,target);
+
+        }
+        //search in 4th half
+        if(target>=matrix[rStart+1][midCol+1]){
+            return search(matrix,rStart+1,midCol+1,column-1,target);
+
+        }
+
 
         return new int[] {-1,-1};
     }
