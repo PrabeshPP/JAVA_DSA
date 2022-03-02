@@ -1,5 +1,7 @@
 package DSA.Searching.BinarySearch;
 
+import java.util.Arrays;
+
 public class Main1 {
     public static void main(String[] args) {
         int[][] arr={
@@ -9,6 +11,9 @@ public class Main1 {
                 {33,34,38,50}
         };
 
+        BinarySearch2DArray binarySearch2DArray=new BinarySearch2DArray();
+        int[] pos=binarySearch2DArray.binarySearch2DArray(arr,50);
+        System.out.println(Arrays.toString(pos));
 
     }
 }
