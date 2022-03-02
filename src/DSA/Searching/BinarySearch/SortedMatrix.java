@@ -42,7 +42,18 @@ public class SortedMatrix {
            return pos;
         }
 
-        while (rStart<=rEnd){
+        //Mid-Columns for the matrix
+        int midCol=(column-1)/2;
+
+        while (rStart<rEnd){
+            int mid=rStart+(rEnd-rStart)/2;
+            if(matrix[mid][midCol]==target){
+                return new int[]{mid,midCol};
+            }else if(matrix[mid][midCol]>target){
+
+            }else{
+
+            }
 
         }
 
