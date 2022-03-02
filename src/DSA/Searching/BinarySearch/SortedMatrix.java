@@ -76,7 +76,7 @@ public class SortedMatrix {
         }
 
         //Search in 2nd half
-        if(target>=matrix[rStart][midCol+1]){
+        if(target>=matrix[rStart][midCol+1] && target<=matrix[rStart][column-1]){
            return search(matrix,rStart+1,midCol+1,column-1,target);
 
         }
