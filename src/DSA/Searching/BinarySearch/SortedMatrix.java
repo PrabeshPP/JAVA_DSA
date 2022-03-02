@@ -35,12 +35,17 @@ public class SortedMatrix {
         int[] pos=new int[2];
         int rows= matrix.length;
         int column=matrix[0].length;
+        int rStart=0;
+        int rEnd=matrix.length-1;
         if(rows==1){
            pos= search(matrix,0,0,2,target);
            return pos;
-        }else{
+        }
+
+        while (rStart<=rEnd){
 
         }
+
         return new int[] {-1,-1};
     }
 
