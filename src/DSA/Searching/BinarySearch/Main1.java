@@ -12,7 +12,7 @@ public class Main1 {
         };
 
         BinarySearch2DArray binarySearch2DArray=new BinarySearch2DArray();
-        int[] pos=binarySearch2DArray.binarySearch2DArray(arr,50);
+        int[] pos=binarySearch2DArray.binarySearch2DArray(arr,35);
         System.out.println(Arrays.toString(pos));
 
     }
