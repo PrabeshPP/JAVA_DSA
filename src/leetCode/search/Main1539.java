@@ -13,10 +13,10 @@ public class Main1539 {
 
 
         int [][] matrix={
-                {4,3,2,-1},
-                {3,2,1,-1},
-                {1,1,-1,-2},
-                {-1,-1,-2,-3}
+                {3,2},
+                {-3,-3},
+                {-3,-3},
+                {-3,-3}
         };
 
         CountNegative countNegative=new CountNegative();
