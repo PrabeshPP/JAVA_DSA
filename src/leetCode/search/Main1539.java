@@ -19,6 +19,10 @@ public class Main1539 {
                 {-1,-1,-2,-3}
         };
 
+        CountNegative countNegative=new CountNegative();
+        int counter=countNegative.countNegatives(matrix);
+        System.out.println(counter);
+
 
     }
 }
