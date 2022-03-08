@@ -1,5 +1,6 @@
 package DSA.Sorting;
 
+//It takes time complexity of O(1)
 public class BubbleSort {
     int[] bubbleSort(int[] arr){
         int len=arr.length;
