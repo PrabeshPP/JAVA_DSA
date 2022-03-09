@@ -1,5 +1,9 @@
 package DSA.Sorting;
 
+/* This algorithm is only suitable for the small list
+,since using this algorithm in large list would require large computational power
+
+*/
 public class SelectionSort {
     int[] selectionSort(int[] arr){
         for(int i=0;i<arr.length;i++){
