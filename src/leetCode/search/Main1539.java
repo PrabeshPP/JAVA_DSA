@@ -24,11 +24,11 @@ public class Main1539 {
 //        CountNegative countNegative=new CountNegative();
 //        int counter=countNegative.countNegatives(matrix);
 //        System.out.println(counter);
-        int[] arr1={1,2};
-        int[] arr2={1,1};
-        IntersectionArray intersectionArray=new IntersectionArray();
-       int[] arr= intersectionArray.intersection(arr1,arr2);
-       System.out.println(Arrays.toString(arr));
+//        int[] arr1={1,2};
+//        int[] arr2={1,1};
+//        IntersectionArray intersectionArray=new IntersectionArray();
+//       int[] arr= intersectionArray.intersection(arr1,arr2);
+//       System.out.println(Arrays.toString(arr));
 
 
     }
