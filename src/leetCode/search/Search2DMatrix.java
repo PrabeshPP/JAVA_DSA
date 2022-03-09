@@ -9,7 +9,7 @@ public class Search2DMatrix {
            return binarySearch(matrix,0,0,matrix[0].length-1,target);
 
         }
-        while(firstRow<lastRow){
+        while(firstRow<lastRow-1){
             int midRow=firstRow+(lastRow-firstRow)/2;
             if(matrix[midRow][midCol]==target){
                 return true;
@@ -22,6 +22,7 @@ public class Search2DMatrix {
 
         }
 
+
         if(matrix[firstRow][midCol]==target){
             return true;
         }
@@ -31,6 +32,7 @@ public class Search2DMatrix {
         }
 
         if(target>matrix[firstRow][midCol] && target<=matrix[firstRow][matrix[0].length-1]){
+
             return  binarySearch(matrix,firstRow,midCol+1,matrix[0].length-1,target);
         }
 
