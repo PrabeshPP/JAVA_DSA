@@ -3,10 +3,10 @@ package leetCode.search;
 public class Search2DMatrix {
     public boolean searchMatrix(int[][] matrix, int target) {
         int firstRow=0;
-        int lastRow=matrix.length;
+        int lastRow=matrix.length-1;
         int midCol=(matrix[0].length-1)/2;
         if(matrix.length==1){
-           return binarySearch(matrix,0,0,matrix[0].length,target);
+           return binarySearch(matrix,0,0,matrix[0].length-1,target);
 
         }
         while(firstRow<lastRow){

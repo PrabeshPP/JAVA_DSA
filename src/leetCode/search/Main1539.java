@@ -37,7 +37,7 @@ public class Main1539 {
         };
 
         Search2DMatrix search2DMatrix=new Search2DMatrix();
-        boolean result=search2DMatrix.searchMatrix(matrix,1);
+        boolean result=search2DMatrix.searchMatrix(matrix,60);
         System.out.println(result);
 
 
