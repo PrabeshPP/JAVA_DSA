@@ -30,15 +30,22 @@ public class Main1539 {
 //       int[] arr= intersectionArray.intersection(arr1,arr2);
 //       System.out.println(Arrays.toString(arr));
 
-        int[][] matrix={
-                {1,3,5,7},
-                {10,11,16,20},
-                {23,30,34,50}
-        };
+//        int[][] matrix={
+//                {1,3,5,7},
+//                {10,11,16,20},
+//                {23,30,34,50}
+//        };
+//
+//        Search2DMatrix search2DMatrix=new Search2DMatrix();
+//        boolean result=search2DMatrix.searchMatrix(matrix,5);
+//        System.out.println(result);
 
-        Search2DMatrix search2DMatrix=new Search2DMatrix();
-        boolean result=search2DMatrix.searchMatrix(matrix,5);
-        System.out.println(result);
+        int[] nums1={4,9,5,4};
+        int[] nums2={9,4,9,8,4,4};
+
+        IntersectionArrayII intersectionArrayII=new IntersectionArrayII();
+        int[] arr=intersectionArrayII.intersection(nums1,nums2);
+
 
 
     }

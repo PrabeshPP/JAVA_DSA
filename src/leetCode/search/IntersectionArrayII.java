@@ -2,6 +2,7 @@ package leetCode.search;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class IntersectionArrayII {
     public int[] intersection(int[] nums1, int[] nums2) {
@@ -11,13 +12,14 @@ public class IntersectionArrayII {
         for(int i=0;i<nums1.length;i++) {
             int result=binarySearch(nums2,0,nums2.length-1,nums1[i]);
             if(result!=-1){
-                list.add(nums1[i]);
-                nums1[i]=-1;
-
+                    System.out.println(nums1[i]);
+                    list.add(nums1[i]);
+                    Arrays.sort(nums2);
             }
+
         }
 
-
+        System.out.println(Arrays.toString(list.toArray()));
         return new int[]{0,0};
 
     }
