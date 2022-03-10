@@ -1,5 +1,6 @@
 package leetCode.search;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Main1539 {
@@ -45,6 +46,7 @@ public class Main1539 {
 
         IntersectionArrayII intersectionArrayII=new IntersectionArrayII();
         int[] arr=intersectionArrayII.intersection(nums1,nums2);
+        System.out.println(Arrays.toString(arr));
 
 
 
