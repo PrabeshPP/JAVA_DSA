@@ -10,8 +10,29 @@ public class WeakestRows {
                 result[i]=index;
         }
 
-       System.out.println(Arrays.toString(result));
+        int minValue=101;
+        int[] resultK=new int[k];
+        int index=-1;
+        for(int i=0;i<k;i++){
+            for(int j=0;j<result.length;j++){
 
+                if(result[j]<minValue){
+
+                    minValue=result[j];
+                    index=j;
+                }
+
+
+            }
+            result[index]=110;
+
+            resultK[i]=index;
+
+            index=-1;
+            minValue=101;
+
+        }
+        System.out.println(Arrays.toString(resultK));
         return Arrays.copyOfRange(result,0,k);
     }
 

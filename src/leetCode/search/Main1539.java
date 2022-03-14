@@ -53,15 +53,14 @@ public class Main1539 {
 //        System.out.println(Arrays.toString(resultantArr));
 
         int[][] matrix={
-                {1,1,0,0,0},
-                {1,1,1,1,0},
-                {1,0,0,0,0},
-                {1,1,0,0,0},
-                {1,1,1,1,1}
+                {1,0,0,0},
+                {1,1,1,1},
+                {1,0,0,0},
+                {1,0,0,0},
         };
 
         WeakestRows weakestRows=new WeakestRows();
-        int[] resulArr=weakestRows.kWeakestRows(matrix,3);
+        int[] resulArr=weakestRows.kWeakestRows(matrix,2);
 //        System.out.println(Arrays.toString(resulArr));
 
 
