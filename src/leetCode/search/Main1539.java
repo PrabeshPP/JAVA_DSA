@@ -41,16 +41,29 @@ public class Main1539 {
 //        boolean result=search2DMatrix.searchMatrix(matrix,5);
 //        System.out.println(result);
 
-        int[] nums2={1,2,5};
-        int[] nums1={2,4};
+//        int[] nums2={1,2,5};
+//        int[] nums1={2,4};
 
 //        IntersectionArrayII intersectionArrayII=new IntersectionArrayII();
 //        int[] arr=intersectionArrayII.intersection(nums1,nums2);
 //        System.out.println(Arrays.toString(arr));
+//
+//        FairCandySwap fairCandySwap=new FairCandySwap();
+//        int[] resultantArr=fairCandySwap.fairCandySwap(nums1,nums2);
+//        System.out.println(Arrays.toString(resultantArr));
 
-        FairCandySwap fairCandySwap=new FairCandySwap();
-        int[] resultantArr=fairCandySwap.fairCandySwap(nums1,nums2);
-        System.out.println(Arrays.toString(resultantArr));
+        int[][] matrix={
+                {1,1,0,0,0},
+                {1,1,1,1,0},
+                {1,0,0,0,0},
+                {1,1,0,0,0},
+                {1,1,1,1,1}
+        };
+
+        WeakestRows weakestRows=new WeakestRows();
+        int[] resulArr=weakestRows.kWeakestRows(matrix,3);
+//        System.out.println(Arrays.toString(resulArr));
+
 
 
 
