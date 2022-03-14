@@ -14,12 +14,23 @@ public class FairCandySwap {
             sum2+=bobSizes[i];
         }
 
-        System.out.println(sum1+" "+sum2);
-        return new int[]{0,1};
+        int difference=(sum1-sum2)/2;
+
+
+        for(int i=0;i<aliceSizes.length;i++){
+            for(int j=0;j< bobSizes.length;j++){
+                if(aliceSizes[i]-bobSizes[j]==difference){
+                    return new int[]{aliceSizes[i],bobSizes[j]};
+
+                }
+            }
+        }
 
 
 
-
+        return new int[]{-1,-1};
 
     }
+
+
 }
