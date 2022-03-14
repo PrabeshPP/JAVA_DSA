@@ -61,7 +61,7 @@ public class Main1539 {
 
         WeakestRows weakestRows=new WeakestRows();
         int[] resulArr=weakestRows.kWeakestRows(matrix,2);
-//        System.out.println(Arrays.toString(resulArr));
+        System.out.println(Arrays.toString(resulArr));
 
 
 

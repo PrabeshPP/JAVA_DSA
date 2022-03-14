@@ -32,8 +32,8 @@ public class WeakestRows {
             minValue=101;
 
         }
-        System.out.println(Arrays.toString(resultK));
-        return Arrays.copyOfRange(result,0,k);
+
+        return resultK;
     }
 
     int binarySearch(int[][] mat,int row,int end){
