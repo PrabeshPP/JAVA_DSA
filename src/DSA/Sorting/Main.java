@@ -10,9 +10,14 @@ public class Main {
 //        int[] newArr=bubbleSort.bubbleSort(arr);
 //        System.out.println(Arrays.toString(newArr));
 
-        SelectionSort selectionSort=new SelectionSort();
-        int[] resultArr=selectionSort.selectionSort(arr);
-        System.out.println(Arrays.toString(resultArr));
+//        SelectionSort selectionSort=new SelectionSort();
+//        int[] resultArr=selectionSort.selectionSort(arr);
+//        System.out.println(Arrays.toString(resultArr));
+
+
+        InsertionSort insertionSort=new InsertionSort();
+        int[] resultArr=insertionSort.insertionsort(arr);
+        System.out.println();
     }
 
 
