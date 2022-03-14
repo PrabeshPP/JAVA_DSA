@@ -41,12 +41,16 @@ public class Main1539 {
 //        boolean result=search2DMatrix.searchMatrix(matrix,5);
 //        System.out.println(result);
 
-        int[] nums1={4,9,5,4};
-        int[] nums2={9,4,9,8,4,4};
+        int[] nums1={1,2,5};
+        int[] nums2={2,4};
 
-        IntersectionArrayII intersectionArrayII=new IntersectionArrayII();
-        int[] arr=intersectionArrayII.intersection(nums1,nums2);
-        System.out.println(Arrays.toString(arr));
+//        IntersectionArrayII intersectionArrayII=new IntersectionArrayII();
+//        int[] arr=intersectionArrayII.intersection(nums1,nums2);
+//        System.out.println(Arrays.toString(arr));
+
+        FairCandySwap fairCandySwap=new FairCandySwap();
+        int[] resultantArr=fairCandySwap.fairCandySwap(nums1,nums2);
+        System.out.println(Arrays.toString(resultantArr));
 
 
 
