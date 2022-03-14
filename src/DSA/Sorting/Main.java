@@ -17,7 +17,7 @@ public class Main {
 
         InsertionSort insertionSort=new InsertionSort();
         int[] resultArr=insertionSort.insertionsort(arr);
-        System.out.println();
+        System.out.println(Arrays.toString(resultArr));
     }
 
 
