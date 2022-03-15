@@ -65,7 +65,7 @@ public class Main1539 {
         int[] arr={-10,12,-20,-8,15};
         DoubleExist doubleExist =new DoubleExist();
         boolean exist=doubleExist.checkIfExist(arr);
-//        System.out.println(exist);
+        System.out.println(exist);
 
 
 
