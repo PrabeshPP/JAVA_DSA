@@ -52,16 +52,20 @@ public class Main1539 {
 //        int[] resultantArr=fairCandySwap.fairCandySwap(nums1,nums2);
 //        System.out.println(Arrays.toString(resultantArr));
 
-        int[][] matrix={
-                {1,0,0,0},
-                {1,1,1,1},
-                {1,0,0,0},
-                {1,0,0,0},
-        };
-
-        WeakestRows weakestRows=new WeakestRows();
-        int[] resulArr=weakestRows.kWeakestRows(matrix,2);
-        System.out.println(Arrays.toString(resulArr));
+//        int[][] matrix={
+//                {1,0,0,0},
+//                {1,1,1,1},
+//                {1,0,0,0},
+//                {1,0,0,0},
+//        };
+//
+//        WeakestRows weakestRows=new WeakestRows();
+//        int[] resulArr=weakestRows.kWeakestRows(matrix,2);
+//        System.out.println(Arrays.toString(resulArr));
+        int[] arr={-10,12,-20,-8,15};
+        DoubleExist doubleExist =new DoubleExist();
+        boolean exist=doubleExist.checkIfExist(arr);
+//        System.out.println(exist);
 
 
 
