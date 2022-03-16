@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        int[] arr={22,5,1,18,10,99,60};
+        int[] arr={5,4,3,2,1};
 //        BubbleSort bubbleSort=new BubbleSort();
 //        int[] newArr=bubbleSort.bubbleSort(arr);
 //        System.out.println(Arrays.toString(newArr));
@@ -15,9 +15,17 @@ public class Main {
 //        System.out.println(Arrays.toString(resultArr));
 
 
-        InsertionSort insertionSort=new InsertionSort();
-        int[] resultArr=insertionSort.insertionsort(arr);
-        System.out.println(Arrays.toString(resultArr));
+//        InsertionSort insertionSort=new InsertionSort();
+//        int[] resultArr=insertionSort.insertionsort(arr);
+//        System.out.println(Arrays.toString(resultArr));
+
+
+        //CyclicSort Algorithm
+        CyclicSort cyclicSort=new CyclicSort();
+        int[] resultantArr=cyclicSort.cyclicSort(arr);
+        System.out.println(Arrays.toString(resultantArr));
+
+
     }
 
 
