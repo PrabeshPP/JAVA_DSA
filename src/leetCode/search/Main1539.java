@@ -62,10 +62,14 @@ public class Main1539 {
 //        WeakestRows weakestRows=new WeakestRows();
 //        int[] resulArr=weakestRows.kWeakestRows(matrix,2);
 //        System.out.println(Arrays.toString(resulArr));
-        int[] arr={-10,12,-20,-8,15};
-        DoubleExist doubleExist =new DoubleExist();
-        boolean exist=doubleExist.checkIfExist(arr);
-        System.out.println(exist);
+        int[] arr={3,5};
+//        DoubleExist doubleExist =new DoubleExist();
+//        boolean exist=doubleExist.checkIfExist(arr);
+//        System.out.println(exist);
+
+        SpecialArray specialArray=new SpecialArray();
+        int result=specialArray.specialArray(arr);
+        System.out.println(result);
 
 
 
