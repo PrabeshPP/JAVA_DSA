@@ -22,7 +22,7 @@ public class TargetIndices {
 
     int binarySearch(int[] nums,int target,boolean isLeft){
         int start=0;
-        int end=nums.length;
+        int end=nums.length-1;
         int index=-1;
         while(start<=end){
             int mid=start+(end-start)/2;
