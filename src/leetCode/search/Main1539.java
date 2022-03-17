@@ -74,7 +74,7 @@ public class Main1539 {
 
 
         TargetIndices targetIndices=new TargetIndices();
-        List<Integer> list=targetIndices.targetIndices(arr,2);
+        List<Integer> list=targetIndices.targetIndices(arr,3);
         System.out.println(Arrays.toString(list.toArray()));
 
 
