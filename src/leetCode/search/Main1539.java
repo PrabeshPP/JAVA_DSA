@@ -2,6 +2,7 @@ package leetCode.search;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.List;
 
 public class Main1539 {
     public static void main(String[] args) {
@@ -62,14 +63,20 @@ public class Main1539 {
 //        WeakestRows weakestRows=new WeakestRows();
 //        int[] resulArr=weakestRows.kWeakestRows(matrix,2);
 //        System.out.println(Arrays.toString(resulArr));
-        int[] arr={3,5};
+        int[] arr={1,2,5,2,3};
 //        DoubleExist doubleExist =new DoubleExist();
 //        boolean exist=doubleExist.checkIfExist(arr);
 //        System.out.println(exist);
 
-        SpecialArray specialArray=new SpecialArray();
-        int result=specialArray.specialArray(arr);
-        System.out.println(result);
+//        SpecialArray specialArray=new SpecialArray();
+//        int result=specialArray.specialArray(arr);
+//        System.out.println(result);
+
+
+        TargetIndices targetIndices=new TargetIndices();
+        List<Integer> list=targetIndices.targetIndices(arr,2);
+        System.out.println(Arrays.toString(list.toArray()));
+
 
 
 
