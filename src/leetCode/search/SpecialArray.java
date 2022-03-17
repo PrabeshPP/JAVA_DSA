@@ -1,5 +1,5 @@
 package leetCode.search;
-
+//
 public class SpecialArray {
     public int specialArray(int[] nums) {
         int x=0;
