@@ -11,9 +11,13 @@ public class TargetIndices {
         Arrays.sort(nums);
         int index1=binarySearch(nums,target,true);
         int index2=binarySearch(nums,target,false);
-        for(int i=index1;i<=index2;i++){
-            list.add(i);
+        if(index1!=-1 || index2!=-1){
+            for(int i=index1;i<=index2;i++){
+                list.add(i);
+            }
+
         }
+
 
 
 
