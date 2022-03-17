@@ -9,7 +9,7 @@ public class TargetIndices {
     public List<Integer> targetIndices(int[] nums, int target) {
         List<Integer> list=new ArrayList<Integer>();
         Arrays.sort(nums);
-        System.out.println(nums);
+        System.out.println(Arrays.toString(nums));
 
 
         return list;
