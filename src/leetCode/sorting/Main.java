@@ -14,6 +14,8 @@ public class Main {
 //        System.out.println(Arrays.toString(list.toArray()));
 
         DuplicateNumber duplicateNumber=new DuplicateNumber();
+        int result=duplicateNumber.findDuplicate(arr);
+        System.out.println(result);
 
 
 
