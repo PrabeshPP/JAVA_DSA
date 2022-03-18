@@ -8,7 +8,7 @@ public class NumbersDisappeared {
     public List<Integer> findDisappearedNumbers(int[] nums) {
         List<Integer> list=new ArrayList<Integer>();
         int i=0;
-        while(i<= nums.length){
+        while(i<nums.length){
             if(nums[i]!=nums[nums[i]-1]){
                 int temp=nums[i];
                 nums[i]=nums[temp-1];
@@ -19,7 +19,11 @@ public class NumbersDisappeared {
             }
         }
 
-        System.out.println(Arrays.toString(nums));
+       for(int j=0;j<nums.length;j++){
+           if(j+1!=nums[j]){
+               list.add(j+1);
+           }
+       }
 
 
         return  list;
