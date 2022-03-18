@@ -3,6 +3,7 @@ package leetCode.sorting;
 import java.util.Arrays;
 
 public class DuplicateNumber {
+    //Since the elements of the array range from 1 to N,Cyclic Sort would be the perfect algorithm for the problem.
     public int findDuplicate(int[] nums) {
         int number=-1;
         //
@@ -23,11 +24,6 @@ public class DuplicateNumber {
            }
 
        }
-
-
-
-
-
         return number;
 
     }
