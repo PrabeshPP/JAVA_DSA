@@ -17,7 +17,12 @@ public class DuplicateNumber {
             }
         }
 
-        System.out.println(Arrays.toString(nums));
+       for(int j=0;j<nums.length;j++){
+           if(j+1!=nums[j]){
+               return nums[j];
+           }
+
+       }
 
 
 
