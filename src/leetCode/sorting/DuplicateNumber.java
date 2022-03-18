@@ -12,6 +12,8 @@ public class DuplicateNumber {
                 int temp=nums[i];
                 nums[i]=nums[temp-1];
                 nums[temp-1]=temp;
+            }else {
+                i++;
             }
         }
 
