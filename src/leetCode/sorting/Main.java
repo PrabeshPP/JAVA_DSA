@@ -22,10 +22,14 @@ public class Main {
 //        System.out.println(Arrays.toString(list.toArray()));
 
 
-        SetMismatch setMismatch=new SetMismatch();
-        int[] resultArr=setMismatch.findErrorNums(arr);
-        System.out.println(Arrays.toString(resultArr));
+//        SetMismatch setMismatch=new SetMismatch();
+//        int[] resultArr=setMismatch.findErrorNums(arr);
+//        System.out.println(Arrays.toString(resultArr));
 
+
+            FindMissingPositiveInteger findMissingPositiveInteger=new FindMissingPositiveInteger();
+            int result=findMissingPositiveInteger.firstMissingPositive(arr);
+            System.out.println(result);
 
 
 
