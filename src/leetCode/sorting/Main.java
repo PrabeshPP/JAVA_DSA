@@ -13,9 +13,13 @@ public class Main {
 //        List<Integer> list=numbersDisappeared.findDisappearedNumbers(arr);
 //        System.out.println(Arrays.toString(list.toArray()));
 
-        DuplicateNumber duplicateNumber=new DuplicateNumber();
-        int result=duplicateNumber.findDuplicate(arr);
-        System.out.println(result);
+//        DuplicateNumber duplicateNumber=new DuplicateNumber();
+//        int result=duplicateNumber.findDuplicate(arr);
+//        System.out.println(result);
+
+        AllDuplicatesArray allDuplicatesArray=new AllDuplicatesArray();
+        List<Integer> list=allDuplicatesArray.findDuplicates(arr);
+        System.out.println(Arrays.toString(list.toArray()));
 
 
 
