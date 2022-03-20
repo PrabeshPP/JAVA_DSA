@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        int[] arr={4,3,2,7,8,2,3,1};
+        int[] arr={1,2,3,2};
 //        MissingNumber missingNumber=new MissingNumber();
 //        int result=missingNumber.missingNumber(arr);
 //        System.out.println(result);
@@ -17,9 +17,14 @@ public class Main {
 //        int result=duplicateNumber.findDuplicate(arr);
 //        System.out.println(result);
 
-        AllDuplicatesArray allDuplicatesArray=new AllDuplicatesArray();
-        List<Integer> list=allDuplicatesArray.findDuplicates(arr);
-        System.out.println(Arrays.toString(list.toArray()));
+//        AllDuplicatesArray allDuplicatesArray=new AllDuplicatesArray();
+//        List<Integer> list=allDuplicatesArray.findDuplicates(arr);
+//        System.out.println(Arrays.toString(list.toArray()));
+
+
+        SetMismatch setMismatch=new SetMismatch();
+        int[] resultArr=setMismatch.findErrorNums(arr);
+        System.out.println(Arrays.toString(resultArr));
 
 
 
