@@ -26,7 +26,7 @@ public class FindMissingPositiveInteger {
         }
 
 
-        return 1;
+        return nums.length+1;
 
 
     }
