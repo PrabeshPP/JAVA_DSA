@@ -16,7 +16,11 @@ public class SetMismatch {
             }
         }
 
-        System.out.println(Arrays.toString(nums));
+        for(int j=0;j<nums.length;j++){
+            if(nums[j]!=j+1){
+                return new int[]{nums[j],j+1};
+            }
+        }
         return arr;
     }
 }

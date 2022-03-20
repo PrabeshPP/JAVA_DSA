@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        int[] arr={1,2,3,2};
+        int[] arr={1,1};
 //        MissingNumber missingNumber=new MissingNumber();
 //        int result=missingNumber.missingNumber(arr);
 //        System.out.println(result);
