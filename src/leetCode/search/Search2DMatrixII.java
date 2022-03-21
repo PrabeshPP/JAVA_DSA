@@ -13,7 +13,7 @@ public class Search2DMatrixII {
                 upperBound--;
             }else {
                 lowerBound++;
-                upperBound= matrix[0].length;
+
             }
         }
         return false;

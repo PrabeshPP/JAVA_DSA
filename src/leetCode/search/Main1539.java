@@ -79,15 +79,15 @@ public class Main1539 {
 
 
         int[][] matrix={
-                {1,4,7,11,15},
+                {1,4,7,11,5},
                 {2,5,8,12,19},
                 {3,6,9,16,22},
                 {10,13,14,17,24},
                 {18,21,23,26,30}
         };
 
-        Search2DMatrix search2DMatrix=new Search2DMatrix();
-        boolean result=search2DMatrix.searchMatrix(matrix,5);
+        Search2DMatrixII search2DMatrixII=new Search2DMatrixII();
+        boolean result =search2DMatrixII.searchMatrix(matrix,8);
         System.out.println(result);
 
 
