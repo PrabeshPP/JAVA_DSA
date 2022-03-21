@@ -63,8 +63,8 @@ public class Main1539 {
 //        WeakestRows weakestRows=new WeakestRows();
 //        int[] resulArr=weakestRows.kWeakestRows(matrix,2);
 //        System.out.println(Arrays.toString(resulArr));
-        int[] arr={1,2,5,2,3};
-//        DoubleExist doubleExist =new DoubleExist();
+//        int[] arr={1,2,5,2,3};
+////        DoubleExist doubleExist =new DoubleExist();
 //        boolean exist=doubleExist.checkIfExist(arr);
 //        System.out.println(exist);
 
@@ -73,10 +73,22 @@ public class Main1539 {
 //        System.out.println(result);
 
 
-        TargetIndices targetIndices=new TargetIndices();
-        List<Integer> list=targetIndices.targetIndices(arr,5);
-        System.out.println(Arrays.toString(list.toArray()));
+//        TargetIndices targetIndices=new TargetIndices();
+//        List<Integer> list=targetIndices.targetIndices(arr,5);
+//        System.out.println(Arrays.toString(list.toArray()));
 
+
+        int[][] matrix={
+                {1,4,7,11,15},
+                {2,5,8,12,19},
+                {3,6,9,16,22},
+                {10,13,14,17,24},
+                {18,21,23,26,30}
+        };
+
+        Search2DMatrix search2DMatrix=new Search2DMatrix();
+        boolean result=search2DMatrix.searchMatrix(matrix,5);
+        System.out.println(result);
 
 
 
