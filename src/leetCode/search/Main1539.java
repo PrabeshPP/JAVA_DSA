@@ -78,16 +78,21 @@ public class Main1539 {
 //        System.out.println(Arrays.toString(list.toArray()));
 
 
-        int[][] matrix={
-                {1,4,7,11,5},
-                {2,5,8,12,19},
-                {3,6,9,16,22},
-                {10,13,14,17,24},
-                {18,21,23,26,30}
-        };
+//        int[][] matrix={
+//                {1,4,7,11,5},
+//                {2,5,8,12,19},
+//                {3,6,9,16,22},
+//                {10,13,14,17,24},
+//                {18,21,23,26,30}
+//        };
+//
+//        Search2DMatrixII search2DMatrixII=new Search2DMatrixII();
+//        boolean result =search2DMatrixII.searchMatrix(matrix,8);
+//        System.out.println(result);
 
-        Search2DMatrixII search2DMatrixII=new Search2DMatrixII();
-        boolean result =search2DMatrixII.searchMatrix(matrix,8);
+        int[] nums={2,5,6,7,7,0,1,2,2};
+        SearchRotatedArrayII searchRotatedArrayII=new SearchRotatedArrayII();
+        boolean result=searchRotatedArrayII.search(nums,3);
         System.out.println(result);
 
 
