@@ -1,6 +1,7 @@
 package leetCode.search;
 
 public class MinRotatedArray {
+    //100% faster than other solutions
     public int findMin(int[] nums) {
         if(nums[0]<nums[nums.length-1]){
             return nums[0];
