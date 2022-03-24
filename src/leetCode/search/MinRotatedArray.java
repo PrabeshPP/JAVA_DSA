@@ -6,10 +6,10 @@ public class MinRotatedArray {
             return nums[0];
         }
         int pivotIndex=pivotPoint(nums);
-        System.out.println(pivotIndex);
 
 
-        return -1;
+
+        return nums[pivotIndex+1];
     }
 
     int pivotPoint(int[] nums){
