@@ -5,6 +5,8 @@ public class MinRotatedArray {
     public int findMin(int[] nums) {
         if(nums[0]<nums[nums.length-1]){
             return nums[0];
+        }else if(nums[0]>nums[nums.length-1]){
+            return nums[nums.length-1];
         }
         int pivotIndex=pivotPoint(nums);
 
