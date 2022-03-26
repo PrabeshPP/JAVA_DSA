@@ -11,8 +11,6 @@ public class Main {
             builder.append(ch);
 
         }
-
-      
         System.out.println(builder);
 
     }
