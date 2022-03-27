@@ -2,6 +2,10 @@ package leetCode.search;
 
 public class SingleElement {
     public int singleNonDuplicate(int[] nums) {
+        //Edge Case
+        if(nums.length==1){
+            return nums[0];
+        }
 
         //Boundary Check
         if(nums[0]!=nums[1]){
