@@ -95,8 +95,12 @@ public class Main1539 {
 //        boolean result=searchRotatedArrayII.search(nums,3);
 //        System.out.println(result);
 
-        MinRotatedArray minRotatedArray=new MinRotatedArray();
-        int result= minRotatedArray.findMin(nums);
+//        MinRotatedArray minRotatedArray=new MinRotatedArray();
+//        int result= minRotatedArray.findMin(nums);
+//        System.out.println(result);
+
+        MinimumSubArraySum minimumSubArraySum=new MinimumSubArraySum();
+        int result=minimumSubArraySum.minSubArrayLen(7,nums);
         System.out.println(result);
 
 
