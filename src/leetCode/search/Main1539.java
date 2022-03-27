@@ -90,7 +90,7 @@ public class Main1539 {
 //        boolean result =search2DMatrixII.searchMatrix(matrix,8);
 //        System.out.println(result);
 
-        int[] nums={3,4,5,1,2};
+        int[] nums={2,3,1,2,4,3};
 //        SearchRotatedArrayII searchRotatedArrayII=new SearchRotatedArrayII();
 //        boolean result=searchRotatedArrayII.search(nums,3);
 //        System.out.println(result);
@@ -99,9 +99,6 @@ public class Main1539 {
 //        int result= minRotatedArray.findMin(nums);
 //        System.out.println(result);
 
-        MinimumSubArraySum minimumSubArraySum=new MinimumSubArraySum();
-        int result=minimumSubArraySum.minSubArrayLen(7,nums);
-        System.out.println(result);
 
 
 
