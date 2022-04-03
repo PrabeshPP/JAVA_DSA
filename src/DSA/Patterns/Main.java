@@ -5,7 +5,7 @@ import java.awt.*;
 public class Main {
     public static void main(String[] args) {
         //Basic of Patterns in java
-        pattern4(5);
+        pattern5(9);
 
     }
 
@@ -44,5 +44,17 @@ public class Main {
             }
             System.out.println();
         }
+    }
+
+    static  void pattern5(int n){
+        for(int i=0;i<n;i++){
+            if(n/2==i){
+                for(int j=0;j<=i;j++){
+                    System.out.print("*");
+            }
+            }
+
+            }
+
     }
 }
