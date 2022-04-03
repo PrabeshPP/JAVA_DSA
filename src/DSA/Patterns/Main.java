@@ -48,13 +48,19 @@ public class Main {
 
     static  void pattern5(int n){
         for(int i=0;i<n;i++){
-            if(n/2==i){
+            if(i<=n/2){
                 for(int j=0;j<=i;j++){
                     System.out.print("*");
+                }
+            }else{
+                for(int x=0;x<n-i;x++){
+                    System.out.print("*");
+                }
             }
-            }
-
-            }
+            System.out.println();
+        }
 
     }
+
+
 }
