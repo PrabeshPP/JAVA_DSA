@@ -36,6 +36,7 @@ public class Main {
             System.out.println();
         }
     }
+    //
 
     static void pattern4(int n){
         for (int i=1;i<=n;i++){
