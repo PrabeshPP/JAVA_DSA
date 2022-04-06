@@ -4,7 +4,10 @@ public class Main {
     public static void main(String[] args) {
         //write a function that prints hello world
         //Print the number from 1 to 5 using recursive method
-        print(1);
+//        print(1);
+        FibonacciNumber fibonacciNumber=new FibonacciNumber();
+        int result=fibonacciNumber.fibo(7);
+        System.out.println(result);
 
     }
 
