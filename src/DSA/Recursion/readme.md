@@ -11,4 +11,7 @@
 - About the tree
    - See the flow of functions ,how they are getting in stack.
    - Identify and focus on left tree calls and right tree calls.
-   - 
+   - Draw the tree and pointer again and again using pen and paper.
+   - Use a debugger to see the flow 
+- See how the values and what types of values(int,string,e.tc.) are returned at each step,See where the function call will come out.In the end ,you will come out of the function.
+
