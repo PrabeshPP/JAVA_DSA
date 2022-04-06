@@ -3,15 +3,16 @@ package DSA.Recursion;
 public class Main {
     public static void main(String[] args) {
         //write a function that prints hello world
-        message(5);
+        //Print the number from 1 to 5 using recursive method
+        print(1);
 
     }
 
-    static void message(int times){
-        if(times==0){
+    static void print(int times){
+        if(times==6){
             return;
         }
-        System.out.println("Hello World!");
-        message(times-1);
+        System.out.println(times);
+        print(times+1);
     }
 }
