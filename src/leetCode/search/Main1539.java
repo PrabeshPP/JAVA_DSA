@@ -103,7 +103,7 @@ public class Main1539 {
 //        int result =singleElement.binarySearch(nums);
 //        System.out.println(result);
 
-        int[] nums={2,2,2,2,3,0,1};
+        int[] nums={4,5,6,7,0,1,4};
         MinRotatedArrayII minRotatedArrayII=new MinRotatedArrayII();
         int result = minRotatedArrayII.findMin(nums);
         System.out.println(result);
