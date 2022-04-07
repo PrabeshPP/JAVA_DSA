@@ -2,14 +2,7 @@ package leetCode.search;
 
 public class MinRotatedArrayII {
     public int findMin(int[] nums) {
-        if(nums[0]>nums[nums.length-1]){
-            return nums[nums.length-1];
-        }
-        if(nums[0]<nums[nums.length-1]){
-            return nums[0];
-
-        }
-
+        System.out.println(pivotPoint(nums));
         return nums[pivotPoint(nums)+1];
 
 
