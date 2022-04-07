@@ -4,11 +4,16 @@ public class BinarySearch {
     //Binary Search Using Recursion in Java
     //Divide and Conquer Relation
     int search(int[] arr,int target,int start,int end){
+
         if(start>end){
             return -1;
+        }else{
+
         }
         int mid=start+(end-start)/2;
+
         if(arr[mid]==target){
+            System.out.println("found");
             return mid;
         }else if(arr[mid]>target){
             end=mid-1;
@@ -19,8 +24,8 @@ public class BinarySearch {
         search(arr,target,start,end);
 
 
+        return  mid;
 
-        return -1;
     }
 
 
