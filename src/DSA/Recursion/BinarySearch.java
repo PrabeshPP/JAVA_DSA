@@ -8,7 +8,7 @@ public class BinarySearch {
         if(start>end){
             return -1;
         }
-
+        //Body of the Function
         int mid=start+(end-start)/2;
 
         if(arr[mid]==target){
