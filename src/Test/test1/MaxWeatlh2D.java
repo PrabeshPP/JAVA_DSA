@@ -2,25 +2,27 @@ package Test.test1;
 
 import java.util.Scanner;
 
-public class MaxWeatlh2D {
+class Solution {
     public static void main(String[] args) {
-        float var1 ,var2;
-        Scanner scanner=new Scanner(System.in);
-        System.out.println("Enter Number 1:");
-        var1=scanner.nextFloat();
-        System.out.println("Enter Number 2:");
-        var2=scanner.nextFloat();
-        if(var1 %2 ==1 && var2%2==1){
-            System.out.println(var1-var2);
-        }else if(var1 %2 ==0 && var2 %2 ==0){
-            System.out.println(var1+var2);
-        }else{
-            if(var1>var2){
-                System.out.println(var1/var2);
+        int result=mySqrt(2147395599);
+        System.out.println(result);
+    }
 
+
+    public static int mySqrt(int x) {
+        long start=0;
+        long end=x-1;
+        while(start<=end){
+            long mid=start+(end-start)/2;
+            if(mid*mid==x){
+                return (int)mid;
+            }else if(mid*mid>x){
+                end=mid-1;
             }else{
-                System.out.println(var2/var1);
+                start=mid+1;
             }
         }
+
+        return (int)end;
     }
 }
