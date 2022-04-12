@@ -5,7 +5,10 @@ public class PeakElementII {
         int[] arr=new int[2];
             for(int i=0;i<mat.length;i++){
                 int peak=peakPoint(i,mat);
-                System.out.println(mat[i][peak]);
+                if(i==0 && peak==0){
+
+
+                }
 
             }
 

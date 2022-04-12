@@ -103,12 +103,21 @@ public class Main1539 {
 //        int result =singleElement.binarySearch(nums);
 //        System.out.println(result);
 
-        int[] nums={4,5,6,7,0,1,4};
-        MinRotatedArrayII minRotatedArrayII=new MinRotatedArrayII();
-        int result = minRotatedArrayII.findMin(nums);
-        System.out.println(result);
+//        int[] nums={4,5,6,7,0,1,4};
+//        MinRotatedArrayII minRotatedArrayII=new MinRotatedArrayII();
+//        int result = minRotatedArrayII.findMin(nums);
+//        System.out.println(result);
         //
 
+
+        int[][] matrix={
+                {10,20,15},
+                {21,30,14},
+                {7,16,32}
+        };
+
+        PeakElementII peakElementII=new PeakElementII();
+        int[] resultArr=peakElementII.findPeakGrid(matrix);
 
 
 
