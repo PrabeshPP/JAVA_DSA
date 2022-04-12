@@ -43,6 +43,14 @@ public class PeakElementII {
 
                 if(peak==mat[i].length-1){
 
+                    if(mat[i][peak]>mat[i][peak-1] && mat[i][peak]>mat[i-1][peak] && mat[i][peak]>mat[i+1][peak]){
+                        return new int[]{i,peak};
+                    }
+
+                }
+
+                if(mat[i][peak]>mat[i][peak+1] && mat[i][peak]>mat[i-1][peak] && mat[i][peak]>mat[i+1][peak] && mat[i][peak]>mat[i][peak-1]){
+                    return new int[]{i,peak};
                 }
 
 
