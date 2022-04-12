@@ -5,10 +5,19 @@ public class PeakElementII {
         int[] arr=new int[2];
             for(int i=0;i<mat.length;i++){
                 int peak=peakPoint(i,mat);
-                if(i==0 && peak==0){
+               if(i==0 && peak<mat[i].length && peak>0){
+                   if(mat[0][peak]>mat[i][peak+1] && mat[0][peak]>mat[i+1][peak] && mat[0][peak]>mat[0][peak-1]){
+                       return new int[]{i,peak};
+                   }
+               }
+               if(i==0 && peak==0){
+                   if(mat[0][peak]>mat[0][peak+1] && mat[0][peak]>mat[i+1][peak]){
+                       return new int[]{i,peak};
+
+                   }
+               }
 
 
-                }
 
             }
 
