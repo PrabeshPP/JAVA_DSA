@@ -111,13 +111,14 @@ public class Main1539 {
 
 
         int[][] matrix={
-                {10,20,15},
-                {21,30,14},
-                {7,16,32}
+                {1,4},
+                {3,2},
+
         };
 
         PeakElementII peakElementII=new PeakElementII();
         int[] resultArr=peakElementII.findPeakGrid(matrix);
+        System.out.println(Arrays.toString(resultArr));
 
 
 

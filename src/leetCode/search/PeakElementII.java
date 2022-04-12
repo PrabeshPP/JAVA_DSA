@@ -6,60 +6,18 @@ public class PeakElementII {
             for(int i=0;i<mat.length;i++){
                 int peak=peakPoint(i,mat);
                 if(i==0){
-                    if(peak==0 && mat[i][peak]>mat[i][peak+1] && mat[i][peak]>mat[i+1][peak]){
-                            return new int[]{i,peak};
-                    }
-
-                    if(peak==mat[i].length-1 && mat[i][peak]>mat[i][peak-1] && mat[i][peak]>mat[i+1][peak]){
-                        return  new int[]{i,peak};
-                    }
-
-                    if(mat[i][peak]>mat[i][peak-1] && mat[i][peak]>mat[i+1][peak] && mat[i][peak]>mat[i][peak+1]){
+                    if(mat[i][peak]>mat[i+1][peak]){
                         return new int[]{i,peak};
                     }
-
-                }
-
-                if(i==mat.length-1){
-                    if(peak==0 && mat[i][peak]>mat[i][peak+1] && mat[i][peak]>mat[i-1][peak]){
-                        return new int[]{i,peak};
-
-                    }
-
-                    if(peak==mat[i].length && mat[i][peak]>mat[i][peak-1] && mat[i][peak]>mat[i-1][peak]){
-                        return  new int[]{i,peak};
-                    }
-
-                    if(mat[i][peak]>mat[i][peak-1] && mat[i][peak]>mat[i-1][peak] && mat[i][peak]>mat[i][peak+1]){
+                }else if(i==mat.length-1){
+                    if(mat[i][peak]>mat[i-1][peak]){
                         return new int[]{i,peak};
                     }
-
-                }
-
-                if(peak==0){
-                    if(mat[i][peak]>mat[i][peak+1] && mat[i][peak]>mat[i-1][peak] && mat[i][peak]>mat[i+1][peak]){
+                }else{
+                    if(mat[i][peak]>mat[i-1][peak]&&mat[i][peak]>mat[i+1][peak]){
                         return new int[]{i,peak};
                     }
                 }
-
-                if(peak==mat[i].length-1){
-
-                    if(mat[i][peak]>mat[i][peak-1] && mat[i][peak]>mat[i-1][peak] && mat[i][peak]>mat[i+1][peak]){
-                        return new int[]{i,peak};
-                    }
-
-                }
-
-                if(i>0 && i<mat.length-1 && peak>0 && peak>mat[i].length-1){
-                    if(mat[i][peak]>mat[i][peak+1] && mat[i][peak]>mat[i-1][peak] && mat[i][peak]>mat[i+1][peak] && mat[i][peak]>mat[i][peak-1]){
-                        return new int[]{i,peak};
-                    }
-
-                }
-
-
-
-
 
             }
 
