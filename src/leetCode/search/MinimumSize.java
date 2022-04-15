@@ -2,8 +2,8 @@ package leetCode.search;
 
 public class MinimumSize {
     public static void main(String[] args) {
-        int[] arr={2,3,1,2,4,3};
-        int target=7;
+        int[] arr={1,4,4};
+        int target=4;
         int len=minSubArrayLen(target,arr);
 
     }
@@ -13,17 +13,20 @@ public class MinimumSize {
         int left=0;
         int right=0;
         int total=0;
-        while(left<=right){
+        while(left<=right && right<nums.length-1){
             for(int i=0;i<right;i++){
                 total+=nums[right];
             }
 
             if(total>=target){
-                size=right+1;
+                total=total-nums[left];
+                size=(right-left)+2;
                 left++;
+            }else{
+                right++;
             }
 
-            right++;
+
         }
         System.out.println(size);
 
