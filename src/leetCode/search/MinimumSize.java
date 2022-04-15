@@ -9,19 +9,22 @@ public class MinimumSize {
     }
 
     static int minSubArrayLen(int target, int[] nums) {
-        int size=0;
+        int size=Integer.MAX_VALUE;
         int left=0;
         int right=0;
         int total=0;
         while(left<=right && right<nums.length-1){
-            for(int i=0;i<right;i++){
+            for(int i=0;i<=right;i++){
                 total+=nums[right];
             }
 
             if(total>=target){
                 total=total-nums[left];
-                size=(right-left)+2;
+                if((right-left)+2<size){
+                    size=(right-left)+2;
+                }
                 left++;
+
             }else{
                 right++;
             }
@@ -29,7 +32,9 @@ public class MinimumSize {
 
         }
         System.out.println(size);
-
+        if(size==Integer.MAX_VALUE){
+            return 0;
+        }
         return size;
 
     }
