@@ -36,7 +36,7 @@ public class MajorityElement {
 
             }
 
-            if (counter >= maxCount) {
+            if (counter > maxCount) {
                 maxCount = counter;
                 maxElem = elem;
 
