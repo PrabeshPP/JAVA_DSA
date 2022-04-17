@@ -4,14 +4,18 @@ import java.util.Arrays;
 
 public class MajorityElement {
     public static void main(String[] args) {
-        int[] arr = new int[]{2,2,1,1,1,2,2};
+        int[] arr = new int[]{2};
         int result = majorityElement(arr);
         System.out.println(result);
+
 
 
     }
 
     static int majorityElement(int[] nums) {
+        if(nums.length==0){
+            return nums[0];
+        }
         nums = sort(nums);
         System.out.println(Arrays.toString(nums));
         int maxElem = 0;
@@ -32,11 +36,13 @@ public class MajorityElement {
 
             }
 
-            if (counter > maxCount) {
+            if (counter >= maxCount) {
                 maxCount = counter;
                 maxElem = elem;
 
             }
+
+            counter=0;
 
 
         }
