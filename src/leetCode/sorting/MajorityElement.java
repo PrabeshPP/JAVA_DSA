@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class MajorityElement {
     public static void main(String[] args) {
-        int[] arr = new int[]{3,1,3};
+        int[] arr = new int[]{2,2,1,1,1,2,2};
         int result = majorityElement(arr);
         System.out.println(result);
 
@@ -18,7 +18,7 @@ public class MajorityElement {
         int maxCount = 0;
         int start = 0;
         int counter = 0;
-        while (start <= nums.length - 1){
+        while (start < nums.length - 1){
             int elem = nums[start];
             for (int j = start + 1; j < nums.length; j++) {
                 if (elem == nums[j]) {
