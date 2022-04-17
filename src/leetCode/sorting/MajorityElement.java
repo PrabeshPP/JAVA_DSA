@@ -11,9 +11,31 @@ public class MajorityElement {
 
     }
     static int majorityElement(int[] nums) {
-        int[] arr=sort(nums);
+        nums=sort(nums);
+        System.out.println(Arrays.toString(nums));
         int maxElem=0;
+        int maxCount=0;
+        int start=0;
+        int counter=0;
+        for(int i=start;i<nums.length;i++){
+            int elem=nums[i];
+            for(int j=i+1;j<nums.length;j++){
+                if(elem==nums[j]){
+                    counter++;
 
+                }else{
+                    start=j;
+                    break;
+
+                }
+            }
+
+            if(counter>maxCount){
+                maxCount=counter;
+                maxElem=elem;
+
+            }
+        }
 
     return 1;
     }
