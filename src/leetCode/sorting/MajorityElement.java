@@ -31,13 +31,13 @@ public class MajorityElement {
                 }
 
             }
-            System.out.println(start);
+
             if (counter > maxCount) {
                 maxCount = counter;
                 maxElem = elem;
 
             }
-            start++;
+
 
         }
 
