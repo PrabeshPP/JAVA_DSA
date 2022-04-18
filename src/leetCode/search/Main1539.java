@@ -110,15 +110,20 @@ public class Main1539 {
         //
 
 
-        int[][] matrix={
-                {10,20,15},
-                {21,30,14},
+//        int[][] matrix={
+//                {10,20,15},
+//                {21,30,14},
+//
+//        };
+//
+//        PeakElementII peakElementII=new PeakElementII();
+//        int[] resultArr=peakElementII.findPeakGrid(matrix);
+//        System.out.println(Arrays.toString(resultArr));
 
-        };
-
-        PeakElementII peakElementII=new PeakElementII();
-        int[] resultArr=peakElementII.findPeakGrid(matrix);
-        System.out.println(Arrays.toString(resultArr));
+        int[] arr={-2,0,10,-19,4,6,-8};
+        DoubleExist doubleExist=new DoubleExist();
+        boolean result=doubleExist.checkIfExist(arr);
+        System.out.println(result);
 
 
 
