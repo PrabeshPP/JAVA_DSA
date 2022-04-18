@@ -18,7 +18,7 @@ public class Shippackages {
         int end=totalWeight;
         while(start<=end){
             int mid=start+(end-start)/2;
-            if(isWeightLessOrEqual(mid,days)){
+            if(isWeightLessOrEqual(weights,mid,days)){
                 ans=mid;
                 end=mid-1;
             }else{
@@ -28,7 +28,12 @@ public class Shippackages {
         return ans;
     }
 
-    public boolean isWeightLessOrEqual(int maxCapacity,int days){
+    public boolean isWeightLessOrEqual(int[] weights,int maxCapacity,int days){
+        int day=1;
+        int sum=0;
+        for(int i=0;i<weights.length;i++){
+
+        }
 
 
     }
