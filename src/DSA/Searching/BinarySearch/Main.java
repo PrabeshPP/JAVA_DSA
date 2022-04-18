@@ -67,10 +67,13 @@ public class Main {
 //        int index=mountainArray.findIndex(arr11);
 //        System.out.println(index);
 
-        Mountain mountain=new Mountain();
-       int index= mountain.findMinIndex(arr11,0);
-       System.out.println(index);
-
+//        Mountain mountain=new Mountain();
+//       int index= mountain.findMinIndex(arr11,0);
+//       System.out.println(index);
+        int[] nums={3, 5, 6, 7, 8, 9, 11, 12, 45, 67, 89};
+        InfiniteNumbers infiniteNumbers=new InfiniteNumbers();
+        int result=infiniteNumbers.findAns(nums,9);
+        System.out.println(result);
 
     }
 }
