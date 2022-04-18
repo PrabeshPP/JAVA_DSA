@@ -1,5 +1,7 @@
 package DSA.Searching.BinarySearch;
 
+import leetCode.search.Shippackages;
+
 import java.util.Scanner;
 
 public class Main {
@@ -70,9 +72,13 @@ public class Main {
 //        Mountain mountain=new Mountain();
 //       int index= mountain.findMinIndex(arr11,0);
 //       System.out.println(index);
-        int[] nums={3, 5, 6, 7, 8, 9, 11, 12, 45, 67, 89};
-        InfiniteNumbers infiniteNumbers=new InfiniteNumbers();
-        int result=infiniteNumbers.findAns(nums,9);
+//        int[] nums={3, 5, 6, 7, 8, 9, 11, 12, 45, 67, 89};
+//        InfiniteNumbers infiniteNumbers=new InfiniteNumbers();
+//        int result=infiniteNumbers.findAns(nums,9);
+//        System.out.println(result);
+        int[] weights={1,2,3,4,5,6,7,8,9,10};
+        Shippackages shippackages=new Shippackages();
+        int result=shippackages.shipWithinDays(weights,5);
         System.out.println(result);
 
     }
