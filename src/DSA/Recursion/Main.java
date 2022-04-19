@@ -7,7 +7,7 @@ public class Main {
         //Print the number from 1 to 5 using recursive method
 //        print(1);
         FibonacciNumber fibonacciNumber=new FibonacciNumber();
-        int result=fibonacciNumber.fiboFormula(129);
+        int result=fibonacciNumber.fiboFormula(1);
         System.out.println(result);
 
 //        int[] arr={1,2,3,4,5,6,7,8};
