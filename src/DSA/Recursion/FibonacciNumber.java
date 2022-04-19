@@ -8,6 +8,7 @@ public class FibonacciNumber {
         return fibo(n-1)+fibo(n-2);
     }
 
+    //FibonacciNumber using Formula
     int fiboFormula(int n){
         return (int) Math.pow(((1+Math.sqrt(5))/2),n);
     }
