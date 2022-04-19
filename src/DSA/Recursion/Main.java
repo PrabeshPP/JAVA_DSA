@@ -6,9 +6,9 @@ public class Main {
         //write a function that prints hello world
         //Print the number from 1 to 5 using recursive method
 //        print(1);
-//        FibonacciNumber fibonacciNumber=new FibonacciNumber();
-//        int result=fibonacciNumber.fibo(7);
-//        System.out.println(result);
+        FibonacciNumber fibonacciNumber=new FibonacciNumber();
+        int result=fibonacciNumber.fibo(7);
+        System.out.println(result);
 
 //        int[] arr={1,2,3,4,5,6,7,8};
 //        BinarySearch binarySearch=new BinarySearch();
