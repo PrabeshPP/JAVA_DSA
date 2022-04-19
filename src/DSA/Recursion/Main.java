@@ -10,10 +10,10 @@ public class Main {
 //        int result=fibonacciNumber.fibo(7);
 //        System.out.println(result);
 
-        int[] arr={1,2,3,4,5,6,7,8};
-        BinarySearch binarySearch=new BinarySearch();
-        int result=binarySearch.search(arr,3,0,arr.length-1);
-        System.out.println(result);
+//        int[] arr={1,2,3,4,5,6,7,8};
+//        BinarySearch binarySearch=new BinarySearch();
+//        int result=binarySearch.search(arr,3,0,arr.length-1);
+//        System.out.println(result);
 
     }
 
