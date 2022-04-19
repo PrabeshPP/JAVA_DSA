@@ -5,21 +5,16 @@ import java.util.Arrays;
 public class SingleNumber {
     public int singleNumber(int[] nums) {
         Arrays.sort(nums);
-        System.out.println(Arrays.toString(nums));
-        for(int i=0;i<nums.length;i++){
-            int currentElem=nums[i];
-            int counter=1;
-            for(int j=i+1;j<nums.length;j++){
-                if(nums[j]==currentElem){
-                    counter++;
-                }
+        int i=0;
+        while(i<nums.length-1){
+            if(nums[i]==nums[i+1]){
+                i+=2;
+            }else{
+                return nums[i];
+            }
 
-            }
-            System.out.println(counter);
-            if(counter==1){
-                return currentElem;
-            }
         }
-        return -1;
+
+        return nums[nums.length-1];
     }
 }

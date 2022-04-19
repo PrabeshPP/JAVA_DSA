@@ -307,7 +307,7 @@ public class Main {
 //        RotateArray1 rotateArray1=new RotateArray1();
 //        rotateArray1.rotate(arr,2);
 
-        int[] arr={2,2,1};
+        int[] arr={4,4,3,1,2,1,2};
 //        SortColors sortColors=new SortColors();
 //        sortColors.sortColors(arr);
 
