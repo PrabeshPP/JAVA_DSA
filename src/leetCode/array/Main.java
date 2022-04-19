@@ -307,12 +307,16 @@ public class Main {
 //        RotateArray1 rotateArray1=new RotateArray1();
 //        rotateArray1.rotate(arr,2);
 
-        int[] arr={2,1,1,2};
+        int[] arr={2,2,1};
 //        SortColors sortColors=new SortColors();
 //        sortColors.sortColors(arr);
 
-        HouseRobber houseRobber=new HouseRobber();
-        int result=houseRobber.rob(arr);
+//        HouseRobber houseRobber=new HouseRobber();
+//        int result=houseRobber.rob(arr);
+//        System.out.println(result);
+
+        SingleNumber singleNumber=new SingleNumber();
+        int result=singleNumber.singleNumber(arr);
         System.out.println(result);
     }
 
