@@ -14,7 +14,7 @@ public class Main {
 //        String address=ipAddress.defangIPaddr("1.1.1.1");
 //        System.out.println(address);
 
-        char[] string={'p','r','a','b','e','s'};
+        char[] string={'a','b','c'};
         ReverseString reverseString=new ReverseString();
         char[] result=reverseString.reverseString(string);
         System.out.print(Arrays.toString(result));
