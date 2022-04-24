@@ -12,7 +12,6 @@ public class Anagram {
        for(int i=0;i<t.length();i++){
            a[t.charAt(i)-'a']--;
        }
-        System.out.println(Arrays.toString(a));
        for(int i:a){
            if(i!=0){
                return false;
