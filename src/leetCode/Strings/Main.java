@@ -20,13 +20,18 @@ public class Main {
 //        ReverseString reverseString=new ReverseString();
 //        char[] result=reverseString.reverseString(string);
 //        System.out.print(Arrays.toString(result));
-        int[][] matrix={
-                {5,1,9,11},
-                {2,4,8,10},
-                {13,3,6,7},
-                {15,14,12,16}
-        };
-        RotateImage rotateImage=new RotateImage();
-        rotateImage.rotate(matrix);
+//        int[][] matrix={
+//                {5,1,9,11},
+//                {2,4,8,10},
+//                {13,3,6,7},
+//                {15,14,12,16}
+//        };
+//        RotateImage rotateImage=new RotateImage();
+//        rotateImage.rotate(matrix);
+        String s="anagram";
+        String t="nagaram";
+        Anagram anagram=new Anagram();
+        boolean result=anagram.isAnagram(s,t);
+        System.out.println(result);
     }
 }
