@@ -28,8 +28,8 @@ public class Main {
 //        };
 //        RotateImage rotateImage=new RotateImage();
 //        rotateImage.rotate(matrix);
-        String s="anagram";
-        String t="nagaram";
+        String s="rat";
+        String t="car";
         Anagram anagram=new Anagram();
         boolean result=anagram.isAnagram(s,t);
         System.out.println(result);

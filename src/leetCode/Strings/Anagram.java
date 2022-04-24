@@ -1,21 +1,23 @@
 package leetCode.Strings;
 
+import java.util.Arrays;
+
 public class Anagram {
     public boolean isAnagram(String s, String t) {
-        boolean result=false;
-        int length1=s.length();
-        int length2=t.length();
-        if(length1<length2){
-            for(int i=0;i<length1;i++){
-               Character value=s.charAt(i);
-               if(t.contains(value.toString())){
-                   result=true;
-                }else{
-                   result=false;
-               }
-            }
-        }
-        return result;
+
+        int[] a=new int[26];
+//       for(int i=0;i<s.length();i++) a[s.charAt(i)-'a']++;
+//
+//       for(int i=0;i<t.length();i++) a[s.charAt(i)-'a']--;
+        for (int i = 0; i < s.length(); i++) a[s.charAt(i) - 'a']++;
+        for (int i = 0; i < t.length(); i++) a[t.charAt(i) - 'a']--;
+
+        System.out.println(Arrays.toString(a));
+       for(int i:a)if(i!=0)return false;
+
+
+        return true;
 
     }
+
 }
