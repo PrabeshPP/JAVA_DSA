@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class MinimumSum {
     public static void main(String[] args) {
         int result=minimumSum(4009);
+        System.out.println(result);
 
     }
 
@@ -17,7 +18,7 @@ public class MinimumSum {
                 i++;
             }
             Arrays.sort(arr);
-            System.out.println(Arrays.toString(arr));
-            return 1;
+
+            return arr[0]*10+arr[3]+arr[1]*10+arr[2];
     }
 }
