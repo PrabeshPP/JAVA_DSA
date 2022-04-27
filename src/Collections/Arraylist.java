@@ -12,6 +12,9 @@ public class Arraylist<I extends Number> {
         list.add(90);
         list.add(100);
         System.out.println(list);
+        // removing data from the ArrayList
+        list.remove(Integer.valueOf(100));
+        System.out.println(list);
 
 
     }
