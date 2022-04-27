@@ -12,9 +12,20 @@ public class Arraylist<I extends Number> {
         list.add(90);
         list.add(100);
         System.out.println(list);
+
         // removing data from the ArrayList
-        list.remove(Integer.valueOf(100));
+        list.remove(Integer.valueOf(60));
         System.out.println(list);
+
+        //updating the value in the list
+        list.set(0,5000);
+        System.out.println(list);
+
+        //Check whether a list contain a given element or not
+       System.out.println( list.contains(20));
+
+
+
 
 
     }
