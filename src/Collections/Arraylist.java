@@ -3,6 +3,7 @@ package Collections;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Stack;
 
 public class Arraylist<I extends Number> {
     public static void main(String[] args) {
@@ -31,6 +32,16 @@ public class Arraylist<I extends Number> {
 
 
         //Stack in java
+        Stack<String> stack=new Stack<>();
+        stack.push("Prabesh");
+        stack.push("Bista");
+        stack.push("Quora");
+        stack.push("ASUS");
+        System.out.println(stack.peek());
+        System.out.println(stack.pop());
+
+        //Linked List
+
 
 
 
