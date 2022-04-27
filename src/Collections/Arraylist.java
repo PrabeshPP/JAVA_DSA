@@ -1,6 +1,7 @@
 package Collections;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class Arraylist<I extends Number> {
@@ -22,7 +23,18 @@ public class Arraylist<I extends Number> {
         System.out.println(list);
 
         //Check whether a list contain a given element or not
-       System.out.println( list.contains(20));
+       System.out.println( list.contains(5000));
+
+       //iterating through a list
+        Iterator<Integer> li=  list.iterator();
+        System.out.println(li.hasNext());
+
+
+        //Stack in java
+
+
+
+
 
 
 
