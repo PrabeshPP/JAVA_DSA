@@ -1,5 +1,7 @@
 package leetCode.sorting;
 
+import java.util.Arrays;
+
 public class ContainsDuplicate {
     public boolean containsDuplicate(int[] nums) {
         for(int i=0;i<nums.length;i++){
@@ -12,7 +14,11 @@ public class ContainsDuplicate {
 
             }
         }
-        System.out.println(nums);
+        for(int i=0;i<nums.length;i++){
+            if(nums[i]==nums[i+1]){
+                return true;
+            }
+        }
         return false;
     }
 
