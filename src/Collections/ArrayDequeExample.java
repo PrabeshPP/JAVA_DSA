@@ -5,6 +5,8 @@ import java.util.Queue;
 
 public class ArrayDequeExample {
     public static void main(String[] args) {
+
+        //ArrayDeque can be use to implement stack and Queue
         ArrayDeque<Integer> arrayDeque=new ArrayDeque<>();
         arrayDeque.offer(90);
 
