@@ -13,7 +13,7 @@ public class HashSetExample {
         set.add(70);
         set.add(75);
 
-        System.out.println(set);
+        System.out.println(set.contains(20));
 
     }
 }
