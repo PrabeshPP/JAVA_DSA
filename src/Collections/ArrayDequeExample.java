@@ -21,5 +21,11 @@ public class ArrayDequeExample {
 
         //polling the element from the last
         System.out.println(arrayDeque.pollLast());
+
+        //peeking the element from the first
+        System.out.println(arrayDeque.peekFirst());
+
+        //peeking the element from the last
+        System.out.println(arrayDeque.peekLast());
     }
 }
