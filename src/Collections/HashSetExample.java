@@ -5,15 +5,14 @@ import java.util.Set;
 
 public class HashSetExample {
     public static void main(String[] args) {
-        Set<Integer> set=new HashSet<>();
-        set.add(23);
-        set.add(40);
-        set.add(50);
-        set.add(56);
-        set.add(70);
-        set.add(75);
+        Set<Student> set=new HashSet<>();
+        set.add(new Student("Prabesh",20));
+        set.add(new Student("Carlo",1));
+        set.add(new Student("Tom",1));
 
-        System.out.println(set.contains(20));
+
+
+        System.out.println(set);
 
     }
 }
