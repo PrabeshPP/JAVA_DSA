@@ -14,6 +14,6 @@ public class LinkedListExample {
         set.add(75);
 
         System.out.println(set.contains(20));
-        so
+        System.out.println(set.size());
     }
 }
