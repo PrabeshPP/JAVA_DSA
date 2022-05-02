@@ -15,4 +15,8 @@ public class MagicNumber {
          }
         System.out.println(ans);
     }
+
+    static  void digits(int n){
+        int count=0;
+    }
 }
