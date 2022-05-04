@@ -16,7 +16,8 @@ public class CollectionClassExample {
         list.add(new Student("Prabesh",20));
         list.add(new Student("Carlo",10));
         list.add(new Student("Tom",19));
-        Collections.sort(list);
+        //using lambda expression
+        Collections.sort(list, (o1,o2)->o1.name.compareTo(o2.name));
         System.out.println(list);
     }
 }

@@ -3,8 +3,8 @@ package Collections;
 import java.util.Objects;
 
 public class Student implements  Comparable<Student>{
-    private String name;
-    private int rollNO;
+    public String name;
+    public int rollNO;
 
     public Student(String name, int rollNO) {
         this.name = name;
