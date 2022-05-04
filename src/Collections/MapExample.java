@@ -16,8 +16,13 @@ public class MapExample {
         }
 
         //iterating through the keys
-        for(Map.Entry<String,Integer> e: numbers.entrySet()){
+        for(String e: numbers.keySet()){
             System.out.println(e);
+        }
+
+        //iterating through the values
+        for(int i: numbers.values()){
+            System.out.println(i);
         }
 //        System.out.println(numbers);
     }
