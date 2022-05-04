@@ -1,5 +1,6 @@
 package Collections;
 
+import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
@@ -13,7 +14,7 @@ public class LinkedListExample {
         set.add(70);
         set.add(75);
 
-        System.out.println(set.contains(20));
+        System.out.println(set);
         System.out.println(set.size());
     }
 }
