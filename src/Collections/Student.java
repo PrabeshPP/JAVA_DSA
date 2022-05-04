@@ -2,7 +2,7 @@ package Collections;
 
 import java.util.Objects;
 
-public class Student {
+public class Student implements  Comparable<Student>{
     private String name;
     private int rollNO;
 
@@ -31,5 +31,12 @@ public class Student {
     @Override
     public int hashCode() {
         return Objects.hash(rollNO);
+    }
+
+
+
+    @Override
+    public int compareTo(Student o) {
+        return this.rollNO-o.rollNO;
     }
 }
