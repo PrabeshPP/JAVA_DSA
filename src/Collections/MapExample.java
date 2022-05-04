@@ -24,6 +24,11 @@ public class MapExample {
         for(int i: numbers.values()){
             System.out.println(i);
         }
+
+        //iterating through the map
+        for(Map.Entry<String,Integer> x: numbers.entrySet()){
+            System.out.println(x);
+        }
 //        System.out.println(numbers);
     }
 }
