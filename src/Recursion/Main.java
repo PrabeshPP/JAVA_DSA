@@ -17,9 +17,12 @@ public class Main {
 //        int totalProduct=product.product(3);
 //        System.out.println(totalProduct);
 
-        Sum sum=new Sum();
-        int total=sum.Sum(10);
-        System.out.println(total);
+//        Sum sum=new Sum();
+//        int total=sum.Sum(10);
+//        System.out.println(total);
+        SumOfDigits sumOfDigits=new SumOfDigits();
+        int result=sumOfDigits.sum(101);
+        System.out.println(result);
 
     }
 
