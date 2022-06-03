@@ -21,7 +21,7 @@ public class Main {
 //        int total=sum.Sum(10);
 //        System.out.println(total);
         SumOfDigits sumOfDigits=new SumOfDigits();
-        int result=sumOfDigits.sum(501);
+        int result=sumOfDigits.sum(521);
         System.out.println(result);
 
     }

@@ -7,7 +7,7 @@ public class SumOfDigits {
             return number;
         }
 
-        total=number%10+sum(number/10);
+        total=number%10*sum(number/10);
         return total;
 
     }
