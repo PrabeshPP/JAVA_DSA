@@ -13,9 +13,14 @@ public class Main {
 //        Nto1 nto1=new Nto1();
 //        nto1.funcBoth(5);
 
-        Product product=new Product();
-        int totalProduct=product.product(3);
-        System.out.println(totalProduct);
+//        Product product=new Product();
+//        int totalProduct=product.product(3);
+//        System.out.println(totalProduct);
+
+        Sum sum=new Sum();
+        int total=sum.Sum(10);
+        System.out.println(total);
+
     }
 
    static int factorial(int n){
