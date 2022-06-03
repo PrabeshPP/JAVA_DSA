@@ -10,9 +10,12 @@ public class Main {
 //        int fact=factorial(x);
 //        System.out.println(fact);
 
-        Nto1 nto1=new Nto1();
-        nto1.funcBoth(5);
+//        Nto1 nto1=new Nto1();
+//        nto1.funcBoth(5);
 
+        Product product=new Product();
+        int totalProduct=product.product(3);
+        System.out.println(totalProduct);
     }
 
    static int factorial(int n){
