@@ -11,7 +11,7 @@ public class Main {
 //        System.out.println(fact);
 
         Nto1 nto1=new Nto1();
-        nto1.NTo1(20);
+        nto1.funcReverse(5);
 
     }
 

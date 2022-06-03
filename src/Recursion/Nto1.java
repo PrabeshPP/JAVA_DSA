@@ -9,4 +9,13 @@ public class Nto1 {
         System.out.println(n);
         NTo1(n-1);
     }
+
+    public void funcReverse(int n){
+        if(n==0){
+            return;
+        }
+
+        funcReverse(n-1);
+        System.out.println(n);
+    }
 }
