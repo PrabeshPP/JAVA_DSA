@@ -4,11 +4,14 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner=new Scanner(System.in);
-        System.out.println("Enter the number of which you want to have the factorial :");
-        int x=scanner.nextInt();
-        int fact=factorial(x);
-        System.out.println(fact);
+//        Scanner scanner=new Scanner(System.in);
+//        System.out.println("Enter the number of which you want to have the factorial :");
+//        int x=scanner.nextInt();
+//        int fact=factorial(x);
+//        System.out.println(fact);
+
+        Nto1 nto1=new Nto1();
+        nto1.NTo1(20);
 
     }
 
