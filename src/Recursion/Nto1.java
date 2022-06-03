@@ -18,4 +18,13 @@ public class Nto1 {
         funcReverse(n-1);
         System.out.println(n);
     }
+
+    public void funcBoth(int n){
+        if(n==0){
+            return;
+        }
+        System.out.println(n);
+        funcBoth(n-1);
+        System.out.println(n);
+    }
 }
