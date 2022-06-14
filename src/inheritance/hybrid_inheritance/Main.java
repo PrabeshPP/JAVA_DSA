@@ -42,5 +42,4 @@ public class Main {
         Four four=new Four();
         four.greet4();
     }
-
 }
