@@ -1,5 +1,10 @@
 package inheritance.hierarchial;
 
+
+/*
+* Hierarchical Inheritance means more than one class inheriting the parent's class
+* */
+
 public class Main {
     public static void main(String[] args) {
         //
